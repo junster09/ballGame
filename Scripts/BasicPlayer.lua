@@ -1,17 +1,30 @@
 local EQUIPMENT = script:GetCustomProperty("thisEQ"):WaitForObject()
 
 
-
+local thisPlayer
 local currency = 0
 UI.SetCursorVisible(true)
 
 
 function OnEquipped(_,player)
-    player.serverUserData.currency = currency
+    thisPlayer = player
+    UpdateCurrencyToServer()
 
 
 
 end
 
-EQUIPMENT.equippedEvent:Connect(OnEquipped)
+function onGainCurrency(amount)
+    print("Event recieved")
+    currency = currency + amount
+    UpdateCurrencyToServer()
+end
 
+function UpdateCurrencyToServer()
+
+    thisPlayer.serverUserData.currency = currency
+    print(thisPlayer.serverUserData.currency)
+end
+
+EQUIPMENT.equippedEvent:Connect(OnEquipped)
+Events.Connect("GainCurrency",onGainCurrency,amount)

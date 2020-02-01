@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9251240292158674901
+  Name: "Opaque Bubble Glass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_opaque_bubble_glass"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
