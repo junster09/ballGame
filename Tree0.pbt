@@ -18,6 +18,7 @@ Objects {
   ChildIds: 14982843161775482339
   ChildIds: 16813558807825262224
   ChildIds: 13047019520035519204
+  ChildIds: 4656406667234666727
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -25,6 +26,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 4656406667234666727
+  Name: "Jesse\'sThings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Jesse\'sThings"
   }
 }
 Objects {
@@ -839,7 +866,11 @@ Objects {
     }
     Overrides {
       Name: "bp:High Cloud Noise Scale"
-      Float: 0.2
+      Float: 0.144006014
+    }
+    Overrides {
+      Name: "bp:Cloud Sun Behind Transmission"
+      Float: 0.109009825
     }
   }
   Collidable_v2 {
