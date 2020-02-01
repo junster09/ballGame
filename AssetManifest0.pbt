@@ -8,6 +8,24 @@ Assets {
   }
 }
 Assets {
+  Id: 15156835596872072213
+  Name: "Rock Hexagonal"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_008"
+  }
+}
+Assets {
+  Id: 15053142934719821581
+  Name: "Rock Block 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_006"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -23,15 +41,6 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
-  Id: 10692073013691796138
-  Name: "Sphere"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_002"
   }
 }
 Assets {
@@ -53,12 +62,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4265221926510450887
-  Name: "Clear Coat 01"
-  PlatformAssetType: 2
+  Id: 6693942131675190133
+  Name: "Rock Flat 02"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_clear-coat_001"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_005"
   }
 }
 Assets {
@@ -68,5 +77,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_bubble"
+  }
+}
+Assets {
+  Id: 1475047547249505990
+  Name: "Rock 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_001"
   }
 }
