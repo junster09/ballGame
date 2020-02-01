@@ -18,6 +18,7 @@ Objects {
   ChildIds: 14982843161775482339
   ChildIds: 16813558807825262224
   ChildIds: 13047019520035519204
+  ChildIds: 4656406667234666727
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -25,6 +26,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 4656406667234666727
+  Name: "Jesse\'sThings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Jesse\'sThings"
   }
 }
 Objects {
@@ -47,6 +74,8 @@ Objects {
   ChildIds: 7665656509330813653
   ChildIds: 9018524997980462296
   ChildIds: 11045487527777084060
+  ChildIds: 1432065594911982399
+  ChildIds: 9720093944732222574
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -55,6 +84,232 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 9720093944732222574
+  Name: "Resource Display"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13047019520035519204
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12815525979607197974
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Resource Display"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:ResourceName"
+          String: "currency"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9627995855059970167
+    }
+  }
+}
+Objects {
+  Id: 1432065594911982399
+  Name: "Junk"
+  Transform {
+    Location {
+      X: -250
+      Y: 1200
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13047019520035519204
+  ChildIds: 12857052824118845226
+  ChildIds: 12194007529649628066
+  ChildIds: 16618690462519279676
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:pickupCurrency"
+      Int: 200
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16618690462519279676
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1432065594911982399
+  ChildIds: 13520199883978832885
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 13520199883978832885
+  Name: "Sphere"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16618690462519279676
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4265221926510450887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.73
+        G: 3.48091135e-07
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 10692073013691796138
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+}
+Objects {
+  Id: 12194007529649628066
+  Name: "Hit Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1432065594911982399
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 12857052824118845226
+  Name: "JunkPickupScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1432065594911982399
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 12194007529649628066
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3705958341201442955
+    }
   }
 }
 Objects {
@@ -78,6 +333,12 @@ Objects {
   ChildIds: 14596052488663009541
   ChildIds: 15581870727858453390
   ChildIds: 11065118713477010462
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:pickupCurrency"
+      Int: 200
+    }
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -167,7 +428,7 @@ Objects {
 }
 Objects {
   Id: 15581870727858453390
-  Name: "Collider"
+  Name: "Hit Box"
   Transform {
     Location {
     }
@@ -212,6 +473,14 @@ Objects {
     }
   }
   ParentId: 11045487527777084060
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 15581870727858453390
+      }
+    }
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -256,7 +525,7 @@ Objects {
           Vector {
             X: -50
             Y: 599.704407
-            Z: 100
+            Z: -450
           }
         }
         Overrides {
@@ -284,6 +553,8 @@ Objects {
   Name: "Player Starter Equipment"
   Transform {
     Location {
+      X: 500
+      Z: 50
     }
     Rotation {
     }
@@ -294,6 +565,7 @@ Objects {
     }
   }
   ParentId: 13047019520035519204
+  ChildIds: 14293786210563575316
   ChildIds: 16967892004153011558
   ChildIds: 2865072378130429507
   UnregisteredParameters {
@@ -306,7 +578,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Equipment {
-    SocketName: "head"
+    SocketName: "root"
     PickupTrigger {
       SelfId: 2865072378130429507
     }
@@ -378,6 +650,34 @@ Objects {
     ScriptAsset {
       Id: 13543299419363558957
     }
+  }
+}
+Objects {
+  Id: 14293786210563575316
+  Name: "Ship"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7665656509330813653
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Ship"
   }
 }
 Objects {
@@ -557,7 +857,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 9251240292158674901
+        Id: 17356360070289999335
       }
     }
   }
@@ -909,7 +1209,11 @@ Objects {
     }
     Overrides {
       Name: "bp:High Cloud Noise Scale"
-      Float: 0.2
+      Float: 0.144006014
+    }
+    Overrides {
+      Name: "bp:Cloud Sun Behind Transmission"
+      Float: 0.109009825
     }
   }
   Collidable_v2 {

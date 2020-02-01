@@ -1,13 +1,13 @@
 local HIT_BOX = script:GetCustomProperty("HitBox"):WaitForObject()
 
 
-local currencyCount =  script.parent:GetCustomProperty("pickupCurrency")
+local CURRENCY_COUNT = script.parent:GetCustomProperty("pickupCurrency")
 
 function OnBeginOverlap(trigger, other)
-    print("sent to ",other.name)
+    print("sent ",CURRENCY_COUNT," to ",other.name)
 
     if other:IsA("Player") then
-        other:AddResource("currency",currencyCount)
+        other:AddResource("currency",CURRENCY_COUNT)
         script.parent:Destroy()
     end
 end

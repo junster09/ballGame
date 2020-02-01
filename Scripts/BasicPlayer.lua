@@ -6,10 +6,9 @@ local thisPlayer
 UI.SetCursorVisible(true)
 
 
-function OnEquipped(_,player)
-    player:SetResource("currency",0)
-
-
+function OnEquipped(_, player)
+    print(player.name)
+    player:SetVisibility(false)
 
 end
 
