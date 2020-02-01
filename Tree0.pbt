@@ -20,9 +20,6 @@ Objects {
   ChildIds: 18352929695334057337
   ChildIds: 13047019520035519204
   ChildIds: 4656406667234666727
-  ChildIds: 6807672211568584849
-  ChildIds: 3273307342834614137
-  ChildIds: 1355842069851060685
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -30,125 +27,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 1355842069851060685
-  Name: "Generic Bullet"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4791658758445250445
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Generic Bullet"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 743.069275
-            Y: -272.198975
-            Z: -200
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16313312156352177803
-    }
-  }
-}
-Objects {
-  Id: 3273307342834614137
-  Name: "BallTemple"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12650306607090566745
-      value {
-        Overrides {
-          Name: "Name"
-          String: "BallTemple"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 750
-            Z: -500
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9129410584517267272
-    }
-  }
-}
-Objects {
-  Id: 6807672211568584849
-  Name: "Rocket Trail VFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 18295221919314072366
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-      TeamSettings {
-      }
-    }
   }
 }
 Objects {
@@ -195,7 +73,7 @@ Objects {
   ChildIds: 17577415863212442571
   ChildIds: 6284631306030046310
   ChildIds: 15423291606645557916
-  ChildIds: 11045487527777084060
+  ChildIds: 1732004427068238832
   ChildIds: 1432065594911982399
   ChildIds: 7441004493294840497
   Collidable_v2 {
@@ -471,16 +349,9 @@ Objects {
   }
 }
 Objects {
-  Id: 11045487527777084060
-  Name: "Junk"
+  Id: 1732004427068238832
+  Name: "JunkPickupSmall1"
   Transform {
-    Location {
-      X: -250
-      Y: 800
-      Z: 100
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -488,15 +359,6 @@ Objects {
     }
   }
   ParentId: 13047019520035519204
-  ChildIds: 14596052488663009541
-  ChildIds: 15581870727858453390
-  ChildIds: 11065118713477010462
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:pickupCurrency"
-      Int: 200
-    }
-  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -504,151 +366,26 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 11065118713477010462
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11045487527777084060
-  ChildIds: 5279755202837201311
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 5279755202837201311
-  Name: "Sphere"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11065118713477010462
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4265221926510450887
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12866208617705411216
+      value {
+        Overrides {
+          Name: "Name"
+          String: "JunkPickupSmall1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -250
+            Y: 800
+            Z: 100
+          }
+        }
       }
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.73
-        G: 3.48091135e-07
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  StaticMesh {
-    MeshAsset {
-      Id: 10692073013691796138
-    }
-    Physics {
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-  }
-}
-Objects {
-  Id: 15581870727858453390
-  Name: "Hit Box"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11045487527777084060
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 14596052488663009541
-  Name: "JunkPickupScript"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11045487527777084060
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:HitBox"
-      ObjectReference {
-        SelfId: 15581870727858453390
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 3705958341201442955
+    TemplateAsset {
+      Id: 9186668609693925129
     }
   }
 }
@@ -672,38 +409,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 4409686975474186800
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 240.209595
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7861152274328885313
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11278221524916168360
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 150
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 12648030414394458403
       value {
         Overrides {
@@ -721,16 +426,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16527451631593340750
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
           }
         }
       }
@@ -951,7 +646,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 14070216768430218221
+        Id: 7977317950054998284
       }
     }
   }
@@ -1129,7 +824,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 0.876056254
+      Float: 5
     }
     Overrides {
       Name: "bp:Lower Hemisphere Color"

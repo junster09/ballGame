@@ -68,7 +68,7 @@ Assets {
         Name: "Spaceship1"
         Transform {
           Location {
-            Y: 220.104797
+            Y: 240.209595
           }
           Rotation {
           }
@@ -1277,9 +1277,10 @@ Assets {
       }
       Objects {
         Id: 11278221524916168360
-        Name: "Weapon"
+        Name: "Primary Gun"
         Transform {
           Location {
+            X: 150
           }
           Rotation {
           }
@@ -1291,16 +1292,15 @@ Assets {
         }
         ParentId: 12648030414394458403
         ChildIds: 7861152274328885313
-        ChildIds: 16527451631593340750
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Equipment {
-          SocketName: "right_prop"
+          SocketName: "root"
           PickupTrigger {
             SelfId: 9100206443353049530
           }
@@ -1323,7 +1323,6 @@ Assets {
               Rotation {
               }
             }
-            AnimationSet: "2hand_rifle_stance"
             OutOfAmmoSfxAssetRef {
               Id: 841534158063459245
             }
@@ -1343,14 +1342,13 @@ Assets {
               Id: 841534158063459245
             }
             ReticleType {
-              Value: "mc:ereticletype:crosshair"
+              Value: "mc:ereticletype:none"
             }
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 20000
-            ProjectileLifeSpan: 10
-            ProjectileGravity: 1
+            ProjectileSpeed: 500
+            ProjectileLifeSpan: -1
             ProjectileLength: 100
             ProjectileRadius: 4
             SpreadMin: 1
@@ -1362,7 +1360,7 @@ Assets {
               SubObjectId: 7861152274328885313
             }
             ReloadAbility {
-              SubObjectId: 16527451631593340750
+              SelfId: 17006163034933605710
             }
             Damage: 10
             WeaponTrajectoryMode {
@@ -1376,9 +1374,6 @@ Assets {
         Name: "AttackAbility"
         Transform {
           Location {
-            X: -500
-            Y: 670.104797
-            Z: -281.188293
           }
           Rotation {
           }
@@ -1445,81 +1440,6 @@ Assets {
           Animation: "2hand_rifle_shoot"
           KeyBinding_v2 {
             Value: "mc:egameaction:primaryaction"
-          }
-        }
-      }
-      Objects {
-        Id: 16527451631593340750
-        Name: "ReloadAbility"
-        Transform {
-          Location {
-            X: -500
-            Y: 670.104797
-            Z: -281.188293
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11278221524916168360
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Ability {
-          IsEnabled: true
-          KeyBinding: "ability_ult"
-          CastPhaseSettings {
-            Duration: 0.6
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
-            }
-          }
-          ExecutePhaseSettings {
-            Duration: 0.15
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
-            }
-          }
-          RecoveryPhaseSettings {
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
-            }
-          }
-          CooldownPhaseSettings {
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
-            }
-          }
-          Animation: "2hand_rifle_reload_magazine"
-          KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_03"
           }
         }
       }
