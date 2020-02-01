@@ -21,6 +21,8 @@ Objects {
   ChildIds: 13047019520035519204
   ChildIds: 4656406667234666727
   ChildIds: 6807672211568584849
+  ChildIds: 3273307342834614137
+  ChildIds: 1355842069851060685
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -28,6 +30,91 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 1355842069851060685
+  Name: "Generic Bullet"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4791658758445250445
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Generic Bullet"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 743.069275
+            Y: -272.198975
+            Z: -200
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16313312156352177803
+    }
+  }
+}
+Objects {
+  Id: 3273307342834614137
+  Name: "BallTemple"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12650306607090566745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "BallTemple"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 750
+            Z: -500
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9129410584517267272
+    }
   }
 }
 Objects {
@@ -585,6 +672,38 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4409686975474186800
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 240.209595
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7861152274328885313
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11278221524916168360
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 150
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 12648030414394458403
       value {
         Overrides {
@@ -602,6 +721,16 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16527451631593340750
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
           }
         }
       }
@@ -710,7 +839,7 @@ Objects {
       BrakingDecelerationFlying: 600
       MaxFlightSpeed: 600
       MovementControlMode {
-        Value: "mc:emovementcontrolmode:viewrelative"
+        Value: "mc:emovementcontrolmode:lookrelative"
       }
       LookControlMode {
         Value: "mc:elookcontrolmode:absolute_tocursor"
