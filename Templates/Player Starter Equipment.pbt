@@ -16,9 +16,9 @@ Assets {
           }
         }
         ParentId: 13047019520035519204
+        ChildIds: 12215052236414668
         ChildIds: 2834029079861181614
         ChildIds: 11278221524916168360
-        ChildIds: 12215052236414668
         ChildIds: 8951021319507640465
         UnregisteredParameters {
         }
@@ -37,6 +37,56 @@ Assets {
         }
       }
       Objects {
+        Id: 12215052236414668
+        Name: "BasicPlayer"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12648030414394458403
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:thisEQ"
+            ObjectReference {
+              SubObjectId: 12648030414394458403
+            }
+          }
+          Overrides {
+            Name: "cs:gun"
+            ObjectReference {
+              SubObjectId: 11278221524916168360
+            }
+          }
+          Overrides {
+            Name: "cs:MaxHealth"
+            Int: 450
+          }
+          Overrides {
+            Name: "cs:MoveSpeed"
+            Int: 1000
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13543299419363558957
+          }
+        }
+      }
+      Objects {
         Id: 2834029079861181614
         Name: "Group"
         Transform {
@@ -47,7 +97,7 @@ Assets {
           Scale {
             X: -0.5
             Y: 0.5
-            Z: 0.5
+            Z: -0.5
           }
         }
         ParentId: 12648030414394458403
@@ -68,7 +118,7 @@ Assets {
         Name: "Spaceship1"
         Transform {
           Location {
-            Y: 240.209595
+            Y: 210.209595
           }
           Rotation {
           }
@@ -1347,7 +1397,7 @@ Assets {
             MaxAmmo: -1
             AmmoType: "rounds"
             MultiShot: 1
-            ProjectileSpeed: 500
+            ProjectileSpeed: 2000
             ProjectileLifeSpan: -1
             ProjectileLength: 100
             ProjectileRadius: 4
@@ -1362,7 +1412,7 @@ Assets {
             ReloadAbility {
               SelfId: 17006163034933605710
             }
-            Damage: 10
+            Damage: 9000
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:muzzletolooktarget"
             }
@@ -1440,48 +1490,6 @@ Assets {
           Animation: "2hand_rifle_shoot"
           KeyBinding_v2 {
             Value: "mc:egameaction:primaryaction"
-          }
-        }
-      }
-      Objects {
-        Id: 12215052236414668
-        Name: "BasicPlayer"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12648030414394458403
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:thisEQ"
-            ObjectReference {
-              SubObjectId: 12648030414394458403
-            }
-          }
-          Overrides {
-            Name: "cs:gun"
-            ObjectReference {
-              SubObjectId: 11278221524916168360
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 13543299419363558957
           }
         }
       }

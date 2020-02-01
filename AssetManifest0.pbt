@@ -61,3 +61,12 @@ Assets {
     AssetId: "mi_clear-coat_001"
   }
 }
+Assets {
+  Id: 4198630735979571043
+  Name: "Bubble"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_bubble"
+  }
+}

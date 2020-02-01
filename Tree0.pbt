@@ -20,6 +20,7 @@ Objects {
   ChildIds: 18352929695334057337
   ChildIds: 13047019520035519204
   ChildIds: 4656406667234666727
+  ChildIds: 10330939856329805579
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -27,6 +28,37 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10330939856329805579
+  Name: "Terrain"
+  Transform {
+    Location {
+      Z: 400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 4198630735979571043
+    }
+    VoxelSize: 1000
+    OctreeDepth: 5
+    GeneratorID: "{\"ver\":1,\"gen\":\"Generator2DHeight\",\"save\":\"terrain_01.vox\"}"
   }
 }
 Objects {
@@ -70,6 +102,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 4204477195591231598
   ChildIds: 17577415863212442571
   ChildIds: 6284631306030046310
   ChildIds: 15423291606645557916
@@ -485,17 +518,16 @@ Objects {
   Camera {
     UseAsDefault: true
     AttachToLocalPlayer: true
-    InitialDistance: 200
+    InitialDistance: 3000
     MinDistance: 300
     MaxDistance: 600
     PositionOffset {
     }
     RotationOffset {
-      Pitch: -60
+      Pitch: -90
     }
     FieldOfView: 90
-    ViewWidth: 2000
-    IsOrthographic: true
+    ViewWidth: 5000
   }
 }
 Objects {
@@ -561,6 +593,36 @@ Objects {
       CanMoveRight: true
       AbilityAimMode {
         Value: "mc:eabilityaimmode:lookrelative"
+      }
+    }
+  }
+}
+Objects {
+  Id: 4204477195591231598
+  Name: "Team Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13047019520035519204
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    TeamSettings {
+      TeamMode_v2 {
+        Value: "mc:eteammode:ffa"
       }
     }
   }
@@ -725,9 +787,8 @@ Objects {
     Overrides {
       Name: "bp:Light Color"
       Color {
-        R: 1
-        G: 0.955973327
-        B: 0.73791039
+        G: 0.100662127
+        B: 0.950000048
         A: 1
       }
     }
@@ -753,7 +814,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3.5
+      Float: 5
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -784,6 +845,14 @@ Objects {
         B: 0.77
         A: 1
       }
+    }
+    Overrides {
+      Name: "bp:Cast Shadows"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Draw Sun"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -867,7 +936,7 @@ Objects {
     Overrides {
       Name: "bp:Ambient Image"
       Enum {
-        Value: "mc:eambientcubemapssmall:1"
+        Value: "mc:eambientcubemapssmall:5"
       }
     }
   }
@@ -920,9 +989,9 @@ Objects {
     Overrides {
       Name: "bp:Haze Color"
       Color {
-        R: 0.590618849
-        G: 0.590618849
-        B: 0.701101899
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
@@ -978,7 +1047,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Brightness"
-      Float: 1
+      Float: 2
     }
     Overrides {
       Name: "bp:Background Clouds"
@@ -1003,6 +1072,14 @@ Objects {
     Overrides {
       Name: "bp:Cloud Sun Behind Transmission"
       Float: 0.109009825
+    }
+    Overrides {
+      Name: "bp:Overall Tint"
+      Color {
+        R: 0.0201656
+        B: 0.105000004
+        A: 1
+      }
     }
   }
   Collidable_v2 {
