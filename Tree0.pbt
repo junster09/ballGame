@@ -17,8 +17,10 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 16813558807825262224
+  ChildIds: 18352929695334057337
   ChildIds: 13047019520035519204
   ChildIds: 4656406667234666727
+  ChildIds: 6807672211568584849
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -26,6 +28,40 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 6807672211568584849
+  Name: "Rocket Trail VFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 18295221919314072366
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+      TeamSettings {
+      }
+    }
   }
 }
 Objects {
@@ -71,10 +107,35 @@ Objects {
   ParentId: 4781671109827199097
   ChildIds: 17577415863212442571
   ChildIds: 6284631306030046310
-  ChildIds: 7665656509330813653
-  ChildIds: 9018524997980462296
+  ChildIds: 15423291606645557916
   ChildIds: 11045487527777084060
   ChildIds: 1432065594911982399
+  ChildIds: 7441004493294840497
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7441004493294840497
+  Name: "UI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13047019520035519204
   ChildIds: 9720093944732222574
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -96,7 +157,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13047019520035519204
+  ParentId: 7441004493294840497
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -122,6 +183,16 @@ Objects {
         Overrides {
           Name: "cs:ResourceName"
           String: "currency"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -495,8 +566,8 @@ Objects {
   }
 }
 Objects {
-  Id: 9018524997980462296
-  Name: "Wooden Training Sword"
+  Id: 15423291606645557916
+  Name: "Player Starter Equipment"
   Transform {
     Scale {
       X: 1
@@ -514,18 +585,18 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 10618916814598256746
+      key: 12648030414394458403
       value {
         Overrides {
           Name: "Name"
-          String: "Wooden Training Sword"
+          String: "Player Starter Equipment"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -50
-            Y: 599.704407
-            Z: -450
+            X: 500
+            Y: -670.104797
+            Z: 281.188293
           }
         }
         Overrides {
@@ -533,151 +604,11 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
-      Id: 13847509129007684866
+      Id: 3769284747068250008
     }
-  }
-}
-Objects {
-  Id: 7665656509330813653
-  Name: "Player Starter Equipment"
-  Transform {
-    Location {
-      X: 500
-      Z: 50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13047019520035519204
-  ChildIds: 14293786210563575316
-  ChildIds: 16967892004153011558
-  ChildIds: 2865072378130429507
-  UnregisteredParameters {
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Equipment {
-    SocketName: "root"
-    PickupTrigger {
-      SelfId: 2865072378130429507
-    }
-  }
-}
-Objects {
-  Id: 2865072378130429507
-  Name: "PickupTrigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3.25
-      Y: 3.25
-      Z: 3.25
-    }
-  }
-  ParentId: 7665656509330813653
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 16967892004153011558
-  Name: "BasicPlayer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7665656509330813653
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:thisEQ"
-      ObjectReference {
-        SelfId: 7665656509330813653
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 13543299419363558957
-    }
-  }
-}
-Objects {
-  Id: 14293786210563575316
-  Name: "Ship"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7665656509330813653
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Ship"
   }
 }
 Objects {
@@ -773,7 +704,6 @@ Objects {
       JumpMaxCount: 1
       JumpVelocity: 900
       GroundFriction: 8
-      GravityScale: 1.9
       MaxSwimSpeed: 420
       Buoyancy: 1
       TouchForceFactor: 1
@@ -812,6 +742,41 @@ Objects {
   }
 }
 Objects {
+  Id: 18352929695334057337
+  Name: "GameManager"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:starterShip"
+      AssetReference {
+        Id: 3769284747068250008
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3945528563755101927
+    }
+  }
+}
+Objects {
   Id: 16813558807825262224
   Name: "Spawn Point"
   Transform {
@@ -842,7 +807,7 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
-      Z: -50
+      Z: -789.104614
     }
     Rotation {
     }
@@ -857,7 +822,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17356360070289999335
+        Id: 14070216768430218221
       }
     }
   }

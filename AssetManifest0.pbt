@@ -1,10 +1,10 @@
 Assets {
-  Id: 17356360070289999335
-  Name: "Bark Redwood 01"
-  PlatformAssetType: 2
+  Id: 18295221919314072366
+  Name: "Rocket Trail VFX"
+  PlatformAssetType: 8
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_redwood_001_uv"
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_rocket_trail"
   }
 }
 Assets {
@@ -14,6 +14,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_SunLight"
+  }
+}
+Assets {
+  Id: 14070216768430218221
+  Name: "Tech Panel 05"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_005"
   }
 }
 Assets {
