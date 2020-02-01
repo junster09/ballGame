@@ -16,10 +16,8 @@ Objects {
   }
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 6284631306030046310
   ChildIds: 16813558807825262224
-  ChildIds: 17577415863212442571
-  ChildIds: 7665656509330813653
+  ChildIds: 13047019520035519204
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -30,8 +28,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7665656509330813653
-  Name: "Equipment"
+  Id: 13047019520035519204
+  Name: "Aj\'s Things"
   Transform {
     Location {
     }
@@ -44,8 +42,200 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 17577415863212442571
+  ChildIds: 6284631306030046310
+  ChildIds: 7665656509330813653
+  ChildIds: 9018524997980462296
+  ChildIds: 11045487527777084060
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11045487527777084060
+  Name: "Junk"
+  Transform {
+    Location {
+      X: -250
+      Y: 800
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13047019520035519204
+  ChildIds: 11065118713477010462
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11065118713477010462
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11045487527777084060
+  ChildIds: 5279755202837201311
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 5279755202837201311
+  Name: "Sphere"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11065118713477010462
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4265221926510450887
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.73
+        G: 3.48091135e-07
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 10692073013691796138
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+}
+Objects {
+  Id: 9018524997980462296
+  Name: "Wooden Training Sword"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13047019520035519204
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10618916814598256746
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Wooden Training Sword"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -50
+            Y: 599.704407
+            Z: 100
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13847509129007684866
+    }
+  }
+}
+Objects {
+  Id: 7665656509330813653
+  Name: "Player Starter Equipment"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13047019520035519204
+  ChildIds: 16967892004153011558
   ChildIds: 2865072378130429507
-  ChildIds: 16668620988967272464
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -57,105 +247,6 @@ Objects {
     SocketName: "head"
     PickupTrigger {
       SelfId: 2865072378130429507
-    }
-  }
-}
-Objects {
-  Id: 16668620988967272464
-  Name: "Do a flip"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7665656509330813653
-  ChildIds: 16967892004153011558
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Ability {
-    IsEnabled: true
-    CastPhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    ExecutePhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:aim"
-      }
-    }
-    RecoveryPhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    CooldownPhaseSettings {
-      CanMove: true
-      CanJump: true
-      CanRotate: true
-      PreventOtherAbilities: true
-      IsTargetDataUpdated: true
-      Facing_V2 {
-        Value: "mc:eabilitysetfacing:none"
-      }
-    }
-    Animation: "unarmed_roll"
-    KeyBinding_v2 {
-      Value: "mc:egameaction:primaryaction"
-    }
-  }
-}
-Objects {
-  Id: 16967892004153011558
-  Name: "BasicPlayer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16668620988967272464
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 13543299419363558957
     }
   }
 }
@@ -192,6 +283,105 @@ Objects {
   }
 }
 Objects {
+  Id: 16967892004153011558
+  Name: "BasicPlayer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7665656509330813653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:thisEQ"
+      ObjectReference {
+        SelfId: 7665656509330813653
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13543299419363558957
+    }
+  }
+}
+Objects {
+  Id: 6284631306030046310
+  Name: "Client Context"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13047019520035519204
+  ChildIds: 4823765146368097004
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 4823765146368097004
+  Name: "Default Camera"
+  Transform {
+    Location {
+      Z: 500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6284631306030046310
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Camera {
+    UseAsDefault: true
+    AttachToLocalPlayer: true
+    InitialDistance: 200
+    MinDistance: 300
+    MaxDistance: 600
+    PositionOffset {
+    }
+    RotationOffset {
+      Pitch: -60
+    }
+    FieldOfView: 90
+    ViewWidth: 2000
+    IsOrthographic: true
+  }
+}
+Objects {
   Id: 17577415863212442571
   Name: "Player Settings"
   Transform {
@@ -205,7 +395,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13047019520035519204
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -228,7 +418,7 @@ Objects {
       BrakingDecelerationFlying: 600
       MaxFlightSpeed: 600
       MovementControlMode {
-        Value: "mc:emovementcontrolmode:lookrelative"
+        Value: "mc:emovementcontrolmode:viewrelative"
       }
       LookControlMode {
         Value: "mc:elookcontrolmode:absolute_tocursor"
@@ -236,10 +426,10 @@ Objects {
       FacingMode {
         Value: "mc:efacingmode:faceaimalways"
       }
-      DefaultRotationRate: 540
+      DefaultRotationRate: -1
       SlideRotationRate: 20
       LookAtCursorProjectionPlane {
-        Value: "mc:eprojectionplane:xz"
+        Value: "mc:eprojectionplane:xy"
       }
       MountedMaxAcceleration: 1800
       MountedWalkSpeed: 960
@@ -283,70 +473,6 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
-  }
-}
-Objects {
-  Id: 6284631306030046310
-  Name: "Client Context"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 4823765146368097004
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 4823765146368097004
-  Name: "Default Camera"
-  Transform {
-    Location {
-      Z: 500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6284631306030046310
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Camera {
-    UseAsDefault: true
-    AttachToLocalPlayer: true
-    FreeControl: true
-    InitialDistance: 200
-    MinDistance: 300
-    MaxDistance: 600
-    PositionOffset {
-    }
-    RotationOffset {
-      Pitch: -90
-    }
-    FieldOfView: 90
-    ViewWidth: 2000
-    IsOrthographic: true
   }
 }
 Objects {

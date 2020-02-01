@@ -26,11 +26,29 @@ Assets {
   }
 }
 Assets {
+  Id: 10692073013691796138
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 4265221926510450887
+  Name: "Clear Coat 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_clear-coat_001"
   }
 }
