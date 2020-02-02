@@ -1,4 +1,5 @@
 local EQUIPMENT = script:GetCustomProperty("thisEQ"):WaitForObject()
+local GUN = script:GetCustomProperty("gun"):WaitForObject()
 local MAX_HEALTH = script:GetCustomProperty("MaxHealth")
 local MOVE_SPEED = script:GetCustomProperty("MoveSpeed")
 
@@ -9,12 +10,12 @@ UI.SetCursorVisible(true)
 
 
 function OnEquipped(_, player)
-   
     print(player.name)
     player:SetVisibility(false)
+    GUN:Equip(player)
 
     if player == EQUIPMENT.owner then
-        thisPlayer = player
+
         player.maxHitPoints = MAX_HEALTH
         player.hitPoints = MAX_HEALTH
 
@@ -25,3 +26,5 @@ function OnEquipped(_, player)
 end
 
 EQUIPMENT.equippedEvent:Connect(OnEquipped)
+
+--
