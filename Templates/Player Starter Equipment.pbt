@@ -70,6 +70,12 @@ Assets {
             Name: "cs:MoveSpeed"
             Int: 1000
           }
+          Overrides {
+            Name: "cs:deathEffects"
+            AssetReference {
+              Id: 16913152809056674009
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -1387,9 +1393,9 @@ Assets {
         Name: "Rocket Trail VFX"
         Transform {
           Location {
-            X: 6.1035109e-05
-            Y: 2.87160261e-11
-            Z: -6.10352072e-05
+            X: 99.9999771
+            Y: 2.58141918e-05
+            Z: -25.0001373
           }
           Rotation {
           }
@@ -1413,11 +1419,11 @@ Assets {
           }
           Overrides {
             Name: "bp:Density"
-            Float: 15
+            Float: 3.5
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 5
+            Float: 1.75
           }
           Overrides {
             Name: "bp:color"
@@ -1429,7 +1435,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Life"
-            Float: 5
+            Float: 1.25
           }
         }
         Collidable_v2 {

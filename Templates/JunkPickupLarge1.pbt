@@ -1,13 +1,13 @@
 Assets {
-  Id: 16239982514011057538
-  Name: "JunkPickupMedium1"
+  Id: 12496996065304753147
+  Name: "JunkPickupLarge1"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 17143182373443729310
+      RootId: 2800528508680785091
       Objects {
-        Id: 17143182373443729310
-        Name: "JunkPickupBig1"
+        Id: 2800528508680785091
+        Name: "JunkPickupLarge1"
         Transform {
           Scale {
             X: 1
@@ -15,10 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13047019520035519204
-        ChildIds: 7451733342643580563
-        ChildIds: 7072880812990157428
-        ChildIds: 17419432828470712727
+        ParentId: 4781671109827199097
+        ChildIds: 2150618051272448888
+        ChildIds: 3011104120600752141
+        ChildIds: 15164695779095382904
         UnregisteredParameters {
           Overrides {
             Name: "cs:pickupCurrency"
@@ -37,7 +37,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7451733342643580563
+        Id: 2150618051272448888
         Name: "JunkPickupScript"
         Transform {
           Location {
@@ -50,12 +50,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17143182373443729310
+        ParentId: 2800528508680785091
         UnregisteredParameters {
           Overrides {
             Name: "cs:HitBox"
             ObjectReference {
-              SubObjectId: 7072880812990157428
+              SubObjectId: 3011104120600752141
+            }
+          }
+          Overrides {
+            Name: "cs:pickupSound"
+            AssetReference {
+              Id: 9228992628601467127
             }
           }
         }
@@ -73,7 +79,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7072880812990157428
+        Id: 3011104120600752141
         Name: "Hit Box"
         Transform {
           Location {
@@ -83,10 +89,10 @@ Assets {
           Scale {
             X: 6
             Y: 6
-            Z: 1
+            Z: 25
           }
         }
-        ParentId: 17143182373443729310
+        ParentId: 2800528508680785091
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -105,7 +111,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17419432828470712727
+        Id: 15164695779095382904
         Name: "ClientContext"
         Transform {
           Location {
@@ -118,11 +124,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17143182373443729310
-        ChildIds: 16219606029710407655
+        ParentId: 2800528508680785091
+        ChildIds: 15545008818602461772
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -131,7 +137,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16219606029710407655
+        Id: 15545008818602461772
         Name: "ShipJunk (m) 2"
         Transform {
           Location {
@@ -144,9 +150,10 @@ Assets {
             Z: 0.5
           }
         }
-        ParentId: 17419432828470712727
-        ChildIds: 13312987099408721821
-        ChildIds: 5368493500117159044
+        ParentId: 15164695779095382904
+        ChildIds: 6066043953137906938
+        ChildIds: 3815648746303635791
+        ChildIds: 16944141102650789288
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -158,7 +165,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13312987099408721821
+        Id: 6066043953137906938
         Name: "Core"
         Transform {
           Location {
@@ -172,15 +179,15 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16219606029710407655
-        ChildIds: 13386126737111029407
-        ChildIds: 2692544074515422331
-        ChildIds: 7505374459252012623
-        ChildIds: 322346190619502569
-        ChildIds: 7960747109249009971
-        ChildIds: 12966679962043398773
-        ChildIds: 14665568806044267375
-        ChildIds: 9135078717771308178
+        ParentId: 15545008818602461772
+        ChildIds: 4718088532673971022
+        ChildIds: 9566673787226012995
+        ChildIds: 5763817123833676346
+        ChildIds: 16411142398103979899
+        ChildIds: 18418501240412431564
+        ChildIds: 10735485806470644043
+        ChildIds: 4983218659928341570
+        ChildIds: 4654295246581007879
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -192,7 +199,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13386126737111029407
+        Id: 4718088532673971022
         Name: "Sphere"
         Transform {
           Location {
@@ -205,7 +212,7 @@ Assets {
             Z: 3.75000143
           }
         }
-        ParentId: 13312987099408721821
+        ParentId: 6066043953137906938
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -234,7 +241,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2692544074515422331
+        Id: 9566673787226012995
         Name: "Pipe"
         Transform {
           Location {
@@ -247,7 +254,7 @@ Assets {
             Z: 0.25
           }
         }
-        ParentId: 13312987099408721821
+        ParentId: 6066043953137906938
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -284,7 +291,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7505374459252012623
+        Id: 5763817123833676346
         Name: "Pipe"
         Transform {
           Location {
@@ -298,7 +305,7 @@ Assets {
             Z: 0.25
           }
         }
-        ParentId: 13312987099408721821
+        ParentId: 6066043953137906938
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -335,7 +342,7 @@ Assets {
         }
       }
       Objects {
-        Id: 322346190619502569
+        Id: 16411142398103979899
         Name: "Pipe"
         Transform {
           Location {
@@ -350,7 +357,7 @@ Assets {
             Z: 0.25
           }
         }
-        ParentId: 13312987099408721821
+        ParentId: 6066043953137906938
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -391,7 +398,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7960747109249009971
+        Id: 18418501240412431564
         Name: "Sphere"
         Transform {
           Location {
@@ -404,7 +411,7 @@ Assets {
             Z: 3.5
           }
         }
-        ParentId: 13312987099408721821
+        ParentId: 6066043953137906938
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -433,7 +440,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12966679962043398773
+        Id: 10735485806470644043
         Name: "Sphere - Half Thin"
         Transform {
           Location {
@@ -448,7 +455,7 @@ Assets {
             Z: 1.18437934
           }
         }
-        ParentId: 13312987099408721821
+        ParentId: 6066043953137906938
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -481,7 +488,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14665568806044267375
+        Id: 4983218659928341570
         Name: "Sphere - Half Thin"
         Transform {
           Location {
@@ -495,7 +502,7 @@ Assets {
             Z: 1.18437934
           }
         }
-        ParentId: 13312987099408721821
+        ParentId: 6066043953137906938
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -528,7 +535,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9135078717771308178
+        Id: 4654295246581007879
         Name: "Pipes"
         Transform {
           Location {
@@ -544,27 +551,27 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13312987099408721821
-        ChildIds: 3408228946747493646
-        ChildIds: 10918022117381608143
-        ChildIds: 17155250433151284350
-        ChildIds: 6485715428008091461
-        ChildIds: 2471627421856909751
-        ChildIds: 14446233218602602263
-        ChildIds: 14423074910000818250
-        ChildIds: 12818646523729047348
-        ChildIds: 2369249612946042339
-        ChildIds: 10215785608644668061
-        ChildIds: 9196053883259507333
-        ChildIds: 4624242701262135602
-        ChildIds: 10965655336314370585
-        ChildIds: 14153015770258718578
-        ChildIds: 77274472125828488
-        ChildIds: 1315209732238080352
-        ChildIds: 9497337791735421269
-        ChildIds: 15771512981015313446
-        ChildIds: 15494725558103664091
-        ChildIds: 4010277671154022874
+        ParentId: 6066043953137906938
+        ChildIds: 16457750495034967751
+        ChildIds: 1390875700405950957
+        ChildIds: 3421113870069129158
+        ChildIds: 10137679013441577664
+        ChildIds: 8418641066353546035
+        ChildIds: 12271705260018383611
+        ChildIds: 18023874850108041714
+        ChildIds: 13499839586219030395
+        ChildIds: 17330986905274122707
+        ChildIds: 7196525350845856467
+        ChildIds: 12318501229669116885
+        ChildIds: 11086266897808327127
+        ChildIds: 12860754406968424005
+        ChildIds: 2476433180709478521
+        ChildIds: 15911122798240006394
+        ChildIds: 16346668923252620683
+        ChildIds: 11997356637968411566
+        ChildIds: 1590241393896738314
+        ChildIds: 8288479010193223211
+        ChildIds: 14028918407394788821
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -576,7 +583,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3408228946747493646
+        Id: 16457750495034967751
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -592,7 +599,7 @@ Assets {
             Z: 0.25
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -621,7 +628,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10918022117381608143
+        Id: 1390875700405950957
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -638,7 +645,7 @@ Assets {
             Z: 0.152933955
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -667,7 +674,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17155250433151284350
+        Id: 3421113870069129158
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -684,7 +691,7 @@ Assets {
             Z: 0.152933955
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -713,7 +720,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6485715428008091461
+        Id: 10137679013441577664
         Name: "Pipe"
         Transform {
           Location {
@@ -729,7 +736,7 @@ Assets {
             Z: 1.10152316
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -758,7 +765,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2471627421856909751
+        Id: 8418641066353546035
         Name: "Pipe"
         Transform {
           Location {
@@ -774,7 +781,7 @@ Assets {
             Z: 0.830106
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -803,7 +810,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14446233218602602263
+        Id: 12271705260018383611
         Name: "Pipe"
         Transform {
           Location {
@@ -819,7 +826,7 @@ Assets {
             Z: 0.830106
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -848,7 +855,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14423074910000818250
+        Id: 18023874850108041714
         Name: "Pipe"
         Transform {
           Location {
@@ -864,7 +871,7 @@ Assets {
             Z: 0.830106
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -893,7 +900,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12818646523729047348
+        Id: 13499839586219030395
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -910,7 +917,7 @@ Assets {
             Z: 0.25
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -939,7 +946,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2369249612946042339
+        Id: 17330986905274122707
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -956,7 +963,7 @@ Assets {
             Z: 0.152933955
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -985,7 +992,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10215785608644668061
+        Id: 7196525350845856467
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -1002,7 +1009,7 @@ Assets {
             Z: 0.152933955
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1031,7 +1038,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9196053883259507333
+        Id: 12318501229669116885
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -1048,7 +1055,7 @@ Assets {
             Z: 0.25
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1077,7 +1084,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4624242701262135602
+        Id: 11086266897808327127
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -1096,7 +1103,7 @@ Assets {
             Z: 0.152933955
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1125,7 +1132,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10965655336314370585
+        Id: 12860754406968424005
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -1143,7 +1150,7 @@ Assets {
             Z: 0.152933955
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1172,7 +1179,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14153015770258718578
+        Id: 2476433180709478521
         Name: "Pipe"
         Transform {
           Location {
@@ -1189,7 +1196,7 @@ Assets {
             Z: 0.830106
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1218,7 +1225,7 @@ Assets {
         }
       }
       Objects {
-        Id: 77274472125828488
+        Id: 15911122798240006394
         Name: "Pipe"
         Transform {
           Location {
@@ -1234,7 +1241,7 @@ Assets {
             Z: 0.830106
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1263,7 +1270,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1315209732238080352
+        Id: 16346668923252620683
         Name: "Pipe"
         Transform {
           Location {
@@ -1280,7 +1287,7 @@ Assets {
             Z: 0.830106
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1309,7 +1316,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9497337791735421269
+        Id: 11997356637968411566
         Name: "Pipe"
         Transform {
           Location {
@@ -1325,7 +1332,7 @@ Assets {
             Z: 0.830106
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1354,7 +1361,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15771512981015313446
+        Id: 1590241393896738314
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -1373,7 +1380,7 @@ Assets {
             Z: 0.25
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1402,7 +1409,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15494725558103664091
+        Id: 8288479010193223211
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -1421,7 +1428,7 @@ Assets {
             Z: 0.152933955
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1450,7 +1457,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4010277671154022874
+        Id: 14028918407394788821
         Name: "Pipe - 90-Degree Long Thin"
         Transform {
           Location {
@@ -1469,7 +1476,7 @@ Assets {
             Z: 0.152933955
           }
         }
-        ParentId: 9135078717771308178
+        ParentId: 4654295246581007879
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1498,7 +1505,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5368493500117159044
+        Id: 3815648746303635791
         Name: "Frame"
         Transform {
           Location {
@@ -1512,12 +1519,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16219606029710407655
-        ChildIds: 9948288601956104955
-        ChildIds: 2572204896703617595
-        ChildIds: 10598321296067184648
-        ChildIds: 4798920567776650404
-        ChildIds: 8716174835715462198
+        ParentId: 15545008818602461772
+        ChildIds: 11502411310454803312
+        ChildIds: 8019601645459465431
+        ChildIds: 8396304734333094924
+        ChildIds: 9230122967457264560
+        ChildIds: 5547331905430686534
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1529,7 +1536,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9948288601956104955
+        Id: 11502411310454803312
         Name: "Power Wires"
         Transform {
           Location {
@@ -1544,11 +1551,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5368493500117159044
-        ChildIds: 10432881815981424309
-        ChildIds: 2071899381338616854
-        ChildIds: 17438733706609655327
-        ChildIds: 2644517865887358635
+        ParentId: 3815648746303635791
+        ChildIds: 16235149261151792270
+        ChildIds: 2041257721203699560
+        ChildIds: 6018727504320939773
+        ChildIds: 13772230500931876511
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1560,7 +1567,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10432881815981424309
+        Id: 16235149261151792270
         Name: "Cube"
         Transform {
           Location {
@@ -1576,7 +1583,7 @@ Assets {
             Z: 0.5
           }
         }
-        ParentId: 9948288601956104955
+        ParentId: 11502411310454803312
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1609,7 +1616,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2071899381338616854
+        Id: 2041257721203699560
         Name: "Cube"
         Transform {
           Location {
@@ -1626,7 +1633,7 @@ Assets {
             Z: 0.5
           }
         }
-        ParentId: 9948288601956104955
+        ParentId: 11502411310454803312
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1659,7 +1666,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17438733706609655327
+        Id: 6018727504320939773
         Name: "Cube"
         Transform {
           Location {
@@ -1676,7 +1683,7 @@ Assets {
             Z: 0.5
           }
         }
-        ParentId: 9948288601956104955
+        ParentId: 11502411310454803312
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1709,7 +1716,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2644517865887358635
+        Id: 13772230500931876511
         Name: "Cube"
         Transform {
           Location {
@@ -1725,7 +1732,7 @@ Assets {
             Z: 0.5
           }
         }
-        ParentId: 9948288601956104955
+        ParentId: 11502411310454803312
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1758,7 +1765,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2572204896703617595
+        Id: 8019601645459465431
         Name: "Gold"
         Transform {
           Location {
@@ -1772,11 +1779,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5368493500117159044
-        ChildIds: 5828397072834924380
-        ChildIds: 7709623470353967112
-        ChildIds: 15163739108131137218
-        ChildIds: 11722044108630083701
+        ParentId: 3815648746303635791
+        ChildIds: 2295627125588646453
+        ChildIds: 10930275565908511089
+        ChildIds: 6201195016948545963
+        ChildIds: 4340174517117109061
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1788,7 +1795,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5828397072834924380
+        Id: 2295627125588646453
         Name: "Cube"
         Transform {
           Location {
@@ -1803,7 +1810,7 @@ Assets {
             Z: 0.360948563
           }
         }
-        ParentId: 2572204896703617595
+        ParentId: 8019601645459465431
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1836,7 +1843,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7709623470353967112
+        Id: 10930275565908511089
         Name: "Cube"
         Transform {
           Location {
@@ -1851,7 +1858,7 @@ Assets {
             Z: 0.360948563
           }
         }
-        ParentId: 2572204896703617595
+        ParentId: 8019601645459465431
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1884,7 +1891,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15163739108131137218
+        Id: 6201195016948545963
         Name: "Cube"
         Transform {
           Location {
@@ -1900,7 +1907,7 @@ Assets {
             Z: 0.360948563
           }
         }
-        ParentId: 2572204896703617595
+        ParentId: 8019601645459465431
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1933,7 +1940,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11722044108630083701
+        Id: 4340174517117109061
         Name: "Cube"
         Transform {
           Location {
@@ -1948,7 +1955,7 @@ Assets {
             Z: 0.360948563
           }
         }
-        ParentId: 2572204896703617595
+        ParentId: 8019601645459465431
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1981,7 +1988,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10598321296067184648
+        Id: 8396304734333094924
         Name: "Shlunks"
         Transform {
           Location {
@@ -1996,10 +2003,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5368493500117159044
-        ChildIds: 3263027011030742878
-        ChildIds: 15756197086741046931
-        ChildIds: 9302607863074509292
+        ParentId: 3815648746303635791
+        ChildIds: 5357303547030761676
+        ChildIds: 9809026673664931298
+        ChildIds: 9218321612110916660
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2011,7 +2018,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3263027011030742878
+        Id: 5357303547030761676
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
@@ -2028,7 +2035,7 @@ Assets {
             Z: 0.723350286
           }
         }
-        ParentId: 10598321296067184648
+        ParentId: 8396304734333094924
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2069,7 +2076,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15756197086741046931
+        Id: 9809026673664931298
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
@@ -2086,7 +2093,7 @@ Assets {
             Z: 0.723350286
           }
         }
-        ParentId: 10598321296067184648
+        ParentId: 8396304734333094924
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2127,7 +2134,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9302607863074509292
+        Id: 9218321612110916660
         Name: "Cube - Chamfered Small Polished"
         Transform {
           Location {
@@ -2143,7 +2150,7 @@ Assets {
             Z: 0.723350286
           }
         }
-        ParentId: 10598321296067184648
+        ParentId: 8396304734333094924
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2184,7 +2191,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4798920567776650404
+        Id: 9230122967457264560
         Name: "Regulator"
         Transform {
           Location {
@@ -2198,19 +2205,19 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5368493500117159044
-        ChildIds: 364120379056481747
-        ChildIds: 17982054527333741897
-        ChildIds: 434082942632156706
-        ChildIds: 4565080917811067420
-        ChildIds: 18189301871355481369
-        ChildIds: 3284937006222150194
-        ChildIds: 6321575917095178950
-        ChildIds: 7878877192467648352
-        ChildIds: 5637362428496818593
-        ChildIds: 8664669734108090157
-        ChildIds: 10809030830557978357
-        ChildIds: 13048375746090940888
+        ParentId: 3815648746303635791
+        ChildIds: 16656039543469489944
+        ChildIds: 3724319121985384938
+        ChildIds: 7743054419550663701
+        ChildIds: 4478667558078076764
+        ChildIds: 8186237532770246298
+        ChildIds: 13645725194861139614
+        ChildIds: 6542242311876546326
+        ChildIds: 10258949343692343747
+        ChildIds: 14673887970901051455
+        ChildIds: 8940136537079682807
+        ChildIds: 5325645987467159705
+        ChildIds: 11457368812263937624
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2222,7 +2229,7 @@ Assets {
         }
       }
       Objects {
-        Id: 364120379056481747
+        Id: 16656039543469489944
         Name: "Ring - Quarter"
         Transform {
           Location {
@@ -2236,7 +2243,7 @@ Assets {
             Z: 7.25
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2269,7 +2276,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17982054527333741897
+        Id: 3724319121985384938
         Name: "Ring - Quarter"
         Transform {
           Location {
@@ -2283,7 +2290,7 @@ Assets {
             Z: 7.25
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2316,7 +2323,7 @@ Assets {
         }
       }
       Objects {
-        Id: 434082942632156706
+        Id: 7743054419550663701
         Name: "Ring - Quarter"
         Transform {
           Location {
@@ -2330,7 +2337,7 @@ Assets {
             Z: 7.25
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2363,7 +2370,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4565080917811067420
+        Id: 4478667558078076764
         Name: "Ring - Quarter Thin"
         Transform {
           Location {
@@ -2377,7 +2384,7 @@ Assets {
             Z: 2
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2410,7 +2417,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18189301871355481369
+        Id: 8186237532770246298
         Name: "Pipe"
         Transform {
           Location {
@@ -2426,7 +2433,7 @@ Assets {
             Z: 0.426905543
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2459,7 +2466,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3284937006222150194
+        Id: 13645725194861139614
         Name: "Pipe"
         Transform {
           Location {
@@ -2475,7 +2482,7 @@ Assets {
             Z: 0.426905543
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2508,7 +2515,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6321575917095178950
+        Id: 6542242311876546326
         Name: "Pipe"
         Transform {
           Location {
@@ -2524,7 +2531,7 @@ Assets {
             Z: 0.426905543
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2557,7 +2564,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7878877192467648352
+        Id: 10258949343692343747
         Name: "Pipe"
         Transform {
           Location {
@@ -2573,7 +2580,7 @@ Assets {
             Z: 0.426905543
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2606,7 +2613,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5637362428496818593
+        Id: 14673887970901051455
         Name: "Pipe"
         Transform {
           Location {
@@ -2625,7 +2632,7 @@ Assets {
             Z: 0.426905543
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2658,7 +2665,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8664669734108090157
+        Id: 8940136537079682807
         Name: "Pipe"
         Transform {
           Location {
@@ -2677,7 +2684,7 @@ Assets {
             Z: 0.426905543
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2710,7 +2717,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10809030830557978357
+        Id: 5325645987467159705
         Name: "Pipe"
         Transform {
           Location {
@@ -2729,7 +2736,7 @@ Assets {
             Z: 0.426905543
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2762,7 +2769,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13048375746090940888
+        Id: 11457368812263937624
         Name: "Pipe"
         Transform {
           Location {
@@ -2781,7 +2788,7 @@ Assets {
             Z: 0.426905543
           }
         }
-        ParentId: 4798920567776650404
+        ParentId: 9230122967457264560
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2814,7 +2821,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8716174835715462198
+        Id: 5547331905430686534
         Name: "Platforms"
         Transform {
           Location {
@@ -2829,10 +2836,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5368493500117159044
-        ChildIds: 915262543626383543
-        ChildIds: 3199182499324825444
-        ChildIds: 491333892962670907
+        ParentId: 3815648746303635791
+        ChildIds: 16465437536698822189
+        ChildIds: 10166498862164212109
+        ChildIds: 6492918317382563594
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2844,7 +2851,7 @@ Assets {
         }
       }
       Objects {
-        Id: 915262543626383543
+        Id: 16465437536698822189
         Name: "Cube"
         Transform {
           Location {
@@ -2859,7 +2866,7 @@ Assets {
             Z: 0.386337876
           }
         }
-        ParentId: 8716174835715462198
+        ParentId: 5547331905430686534
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2892,7 +2899,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3199182499324825444
+        Id: 10166498862164212109
         Name: "Cube"
         Transform {
           Location {
@@ -2908,7 +2915,7 @@ Assets {
             Z: 0.386337876
           }
         }
-        ParentId: 8716174835715462198
+        ParentId: 5547331905430686534
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2941,7 +2948,7 @@ Assets {
         }
       }
       Objects {
-        Id: 491333892962670907
+        Id: 6492918317382563594
         Name: "Pipes"
         Transform {
           Location {
@@ -2957,25 +2964,25 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8716174835715462198
-        ChildIds: 8926760948647267641
-        ChildIds: 10561884875231162963
-        ChildIds: 2797283013120928241
-        ChildIds: 725502917261115231
-        ChildIds: 7301574460474036780
-        ChildIds: 2007714010313636461
-        ChildIds: 1536224467043299533
-        ChildIds: 7183426417099035795
-        ChildIds: 1442130552944224795
-        ChildIds: 702996976898158919
-        ChildIds: 9457198323729379219
-        ChildIds: 12481578622299625072
-        ChildIds: 748309766441157113
-        ChildIds: 12320766592400756278
-        ChildIds: 2478127754194166605
-        ChildIds: 18150715159811038229
-        ChildIds: 12248564937474181254
-        ChildIds: 6103659921468084417
+        ParentId: 5547331905430686534
+        ChildIds: 2398910895725114184
+        ChildIds: 12993112419310583863
+        ChildIds: 12374626052426134542
+        ChildIds: 130777565496495758
+        ChildIds: 4954809897938860426
+        ChildIds: 6443576378274005387
+        ChildIds: 4857367611850923822
+        ChildIds: 7415448774137452469
+        ChildIds: 18014268672968661005
+        ChildIds: 8923840342212940992
+        ChildIds: 14703359233254115021
+        ChildIds: 8315278481528219599
+        ChildIds: 11529758238126321195
+        ChildIds: 5536122435443218086
+        ChildIds: 5800679784023758678
+        ChildIds: 9452900123972772562
+        ChildIds: 9296560050005334263
+        ChildIds: 9539440511122816898
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2987,7 +2994,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8926760948647267641
+        Id: 2398910895725114184
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3006,7 +3013,7 @@ Assets {
             Z: 0.506352782
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3039,7 +3046,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10561884875231162963
+        Id: 12993112419310583863
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3058,7 +3065,7 @@ Assets {
             Z: 0.248932853
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3091,7 +3098,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2797283013120928241
+        Id: 12374626052426134542
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3110,7 +3117,7 @@ Assets {
             Z: 0.248932853
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3143,7 +3150,7 @@ Assets {
         }
       }
       Objects {
-        Id: 725502917261115231
+        Id: 130777565496495758
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3162,7 +3169,7 @@ Assets {
             Z: 0.248932853
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3195,7 +3202,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7301574460474036780
+        Id: 4954809897938860426
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3214,7 +3221,7 @@ Assets {
             Z: 0.506352782
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3247,7 +3254,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2007714010313636461
+        Id: 6443576378274005387
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3266,7 +3273,7 @@ Assets {
             Z: 0.248932853
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3299,7 +3306,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1536224467043299533
+        Id: 4857367611850923822
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3318,7 +3325,7 @@ Assets {
             Z: 0.248932853
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3351,7 +3358,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7183426417099035795
+        Id: 7415448774137452469
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3370,7 +3377,7 @@ Assets {
             Z: 0.506352782
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3403,7 +3410,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1442130552944224795
+        Id: 18014268672968661005
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3422,7 +3429,7 @@ Assets {
             Z: 0.248932853
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3455,7 +3462,7 @@ Assets {
         }
       }
       Objects {
-        Id: 702996976898158919
+        Id: 8923840342212940992
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3474,7 +3481,7 @@ Assets {
             Z: 0.248932853
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3507,7 +3514,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9457198323729379219
+        Id: 14703359233254115021
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3526,7 +3533,7 @@ Assets {
             Z: 0.506352782
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3559,7 +3566,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12481578622299625072
+        Id: 8315278481528219599
         Name: "Pipe - 45-Degree Long Thin"
         Transform {
           Location {
@@ -3578,7 +3585,7 @@ Assets {
             Z: 0.248932853
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3611,7 +3618,7 @@ Assets {
         }
       }
       Objects {
-        Id: 748309766441157113
+        Id: 11529758238126321195
         Name: "Pipe"
         Transform {
           Location {
@@ -3628,7 +3635,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3661,7 +3668,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12320766592400756278
+        Id: 5536122435443218086
         Name: "Pipe"
         Transform {
           Location {
@@ -3678,7 +3685,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3711,7 +3718,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2478127754194166605
+        Id: 5800679784023758678
         Name: "Pipe"
         Transform {
           Location {
@@ -3728,7 +3735,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3761,7 +3768,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18150715159811038229
+        Id: 9452900123972772562
         Name: "Pipe"
         Transform {
           Location {
@@ -3779,7 +3786,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3812,7 +3819,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12248564937474181254
+        Id: 9296560050005334263
         Name: "Pipe"
         Transform {
           Location {
@@ -3830,7 +3837,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3863,7 +3870,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6103659921468084417
+        Id: 9539440511122816898
         Name: "Pipe"
         Transform {
           Location {
@@ -3881,7 +3888,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 491333892962670907
+        ParentId: 6492918317382563594
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3903,6 +3910,57 @@ Assets {
         StaticMesh {
           MeshAsset {
             Id: 4699318192636514973
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 16944141102650789288
+        Name: "Pickup Ring"
+        Transform {
+          Location {
+            X: 53.0825195
+            Y: 2.11621094
+          }
+          Rotation {
+          }
+          Scale {
+            X: 14.7999954
+            Y: 14.7999954
+            Z: 14.7999954
+          }
+        }
+        ParentId: 15545008818602461772
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4620615145667919762
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 14558735184313401663
           }
           Physics {
           }
@@ -4056,6 +4114,24 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_pipe_curve45_005"
+      }
+    }
+    Assets {
+      Id: 14558735184313401663
+      Name: "Ring - Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_torus_003"
+      }
+    }
+    Assets {
+      Id: 4620615145667919762
+      Name: "Emissive Glow Transparent"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_emissive_001"
       }
     }
     PrimaryAssetId {

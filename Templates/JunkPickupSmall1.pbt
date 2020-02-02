@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13047019520035519204
+        ParentId: 4781671109827199097
         ChildIds: 1622374715992864652
         ChildIds: 5146000868137837823
         ChildIds: 15757374428652764992
@@ -58,6 +58,12 @@ Assets {
               SubObjectId: 5146000868137837823
             }
           }
+          Overrides {
+            Name: "cs:pickupSound"
+            AssetReference {
+              Id: 9228992628601467127
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -83,7 +89,7 @@ Assets {
           Scale {
             X: 1
             Y: 1
-            Z: 1
+            Z: 25
           }
         }
         ParentId: 12866208617705411216
@@ -122,7 +128,7 @@ Assets {
         ChildIds: 6427439676017099285
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -150,6 +156,7 @@ Assets {
         ChildIds: 14944616857338442728
         ChildIds: 5284789070687191155
         ChildIds: 8373954998918036206
+        ChildIds: 12459474491974253581
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -872,6 +879,55 @@ Assets {
           EnableCameraCollision: true
         }
       }
+      Objects {
+        Id: 12459474491974253581
+        Name: "Pickup Ring"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 9.99999905
+            Y: 9.99999905
+            Z: 9.99999905
+          }
+        }
+        ParentId: 6427439676017099285
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4620615145667919762
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 14558735184313401663
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
     }
     Assets {
       Id: 12095835209017042614
@@ -934,6 +990,24 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_carbon-fiber_001"
+      }
+    }
+    Assets {
+      Id: 14558735184313401663
+      Name: "Ring - Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_torus_003"
+      }
+    }
+    Assets {
+      Id: 4620615145667919762
+      Name: "Emissive Glow Transparent"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_emissive_001"
       }
     }
     PrimaryAssetId {

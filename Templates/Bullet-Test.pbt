@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 10036258488131265623
+        ChildIds: 17929697713308847671
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -79,6 +80,41 @@ Assets {
           EnableCameraCollision: true
         }
       }
+      Objects {
+        Id: 17929697713308847671
+        Name: "Gunshot Bullet Ricochets 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13058257315024253115
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 7927638943299107577
+          }
+          AutoPlay: true
+          Pitch: -75
+          Volume: 5
+          Falloff: 3600
+          Radius: 400
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
     }
     Assets {
       Id: 2130354638005864793
@@ -96,6 +132,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_basic_emissive_001"
+      }
+    }
+    Assets {
+      Id: 7927638943299107577
+      Name: "Gunshot Bullet Ricochets 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_bullet_ricochets_01_Cue_ref"
       }
     }
     PrimaryAssetId {
