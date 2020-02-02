@@ -76,6 +76,12 @@ Assets {
               Id: 16913152809056674009
             }
           }
+          Overrides {
+            Name: "cs:damageFX"
+            AssetReference {
+              Id: 7979897926698893397
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {

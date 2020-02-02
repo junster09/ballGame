@@ -278,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12923701138268279279
+  Name: "Frame Beveled 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameBeveled_006"
+  }
+}
+Assets {
   Id: 12694109212499760862
   Name: "Modern Weapon - Slide 01"
   PlatformAssetType: 1
@@ -431,12 +440,30 @@ Assets {
   }
 }
 Assets {
+  Id: 8781642836161351688
+  Name: "Background Gradient 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundGradient_001"
+  }
+}
+Assets {
   Id: 8764615035391976227
   Name: "Plane 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_4m_001"
+  }
+}
+Assets {
+  Id: 8461605179159812921
+  Name: "Background Beveled 019"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundBeveled_019"
   }
 }
 Assets {
@@ -554,6 +581,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
+  }
+}
+Assets {
+  Id: 6815503177729751434
+  Name: "Background Flat 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_006"
   }
 }
 Assets {
@@ -806,6 +842,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weapons_grenade_handle_001"
+  }
+}
+Assets {
+  Id: 1726011146984449435
+  Name: "Crosshair 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Crosshair_001"
   }
 }
 Assets {

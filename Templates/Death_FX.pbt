@@ -16,6 +16,96 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 3039765158731164736
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceon"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3039765158731164736
+        Name: "Ball"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6065300252641844902
+        ChildIds: 17206280157329564783
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 4734780502947683559
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 17206280157329564783
+        Name: "Group"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3039765158731164736
+        ChildIds: 13363444211078239460
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceon"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 13363444211078239460
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17206280157329564783
         ChildIds: 8329684481779929416
         ChildIds: 15801095768249916903
         WantsNetworking: true
@@ -25,8 +115,7 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Folder {
-          IsGroup: true
+        NetworkContext {
         }
       }
       Objects {
@@ -43,8 +132,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6065300252641844902
-        WantsNetworking: true
+        ParentId: 13363444211078239460
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -56,7 +144,7 @@ Assets {
             Id: 6813738759411951595
           }
           AutoPlay: true
-          Volume: 1
+          Volume: 4
           Falloff: 3600
           Radius: 400
           EnableOcclusion: true
@@ -78,7 +166,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6065300252641844902
+        ParentId: 13363444211078239460
         ChildIds: 13024336707625521535
         UnregisteredParameters {
           Overrides {
@@ -90,8 +178,11 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 50
+          }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -144,12 +235,11 @@ Assets {
             Float: 1.21536291
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Blueprint {
           BlueprintAsset {
@@ -163,6 +253,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 4734780502947683559
+      Name: "Ball"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_sphere_001"
       }
     }
     Assets {

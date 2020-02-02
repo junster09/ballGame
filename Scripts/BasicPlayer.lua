@@ -2,9 +2,8 @@ local EQUIPMENT = script:GetCustomProperty("thisEQ"):WaitForObject()
 local MAX_HEALTH = script:GetCustomProperty("MaxHealth")
 local MOVE_SPEED = script:GetCustomProperty("MoveSpeed")
 local DEATH_EFFECTS = script:GetCustomProperty("deathEffects")
+local DAMAGE_FX = script:GetCustomProperty("damageFX")
 
-print(MAX_HEALTH)
-print(MOVE_SPEED)
 local thisPlayer
 UI.SetCursorVisible(true)
 
@@ -20,9 +19,17 @@ function OnEquipped(_, player)
         player.hitPoints = MAX_HEALTH
         player.maxWalkSpeed = MOVE_SPEED
         player.diedEvent:Connect(OnPlayerDeath)
-
+        player.damagedEvent:Connect(OnDamaged)
     end
 
+end
+
+function OnDamaged(player,damage)
+--World.SpawnAsset(string assetId, [table parameters])	
+
+u = World.SpawnAsset(DAMAGE_FX,{parent = script.parent})
+Task.Wait(0.7)
+--u.Destroy()
 end
 
 function OnPlayerDeath(player,_)
@@ -33,5 +40,6 @@ function OnPlayerDeath(player,_)
 
 
 end
+
 
 EQUIPMENT.equippedEvent:Connect(OnEquipped)

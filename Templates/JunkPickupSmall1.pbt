@@ -64,6 +64,12 @@ Assets {
               Id: 9228992628601467127
             }
           }
+          Overrides {
+            Name: "cs:pickupVFX"
+            AssetReference {
+              Id: 14643920605951057780
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
