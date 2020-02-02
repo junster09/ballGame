@@ -7,6 +7,12 @@ local DAMAGE_FX = script:GetCustomProperty("damageFX")
 local thisPlayer
 UI.SetCursorVisible(true)
 
+function Tick(deltaTime)
+    if(EQUIPMENT.owner ~= nil) then
+        r = EQUIPMENT.owner:GetWorldPosition()
+        EQUIPMENT.owner:SetWorldPosition(Vector3.New(r.x,r.y,0))
+    end
+end
 
 function OnEquipped(_, player)
    
