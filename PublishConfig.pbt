@@ -1,17 +1,9 @@
 GameId: "8dc958c1bdb34cb3a384fea77ea26dc3"
 ClientVersion: "1.0.110-prod-s"
-Name: "Space Junkers"
-Description: "Top Down space explorer Game"
+Name: "trashpunkesXDModeEXVerKa"
+Description: "hehehe XD uwu dad"
 MaxPlayers: 8
-GameGenres: DeathMatch
-Tags: "space"
-Tags: "scifi"
-Tags: "shooter"
-Tags: "topdown"
-Tags: "gun"
-Tags: "multiplayer"
-ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (1).png"
-ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (2).png"
-ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (3).png"
-ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (4).png"
-ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (5).png"
+IsPrivate: true
+GameGenres: Other
+Tags: "jesse"
+ScreenshotPaths: "C:/Users/aArtuz/Documents/My Games/CORE/Saved/Maps/ballGame/Screenshots/Screenshot0003.png"

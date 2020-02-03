@@ -96,7 +96,7 @@ Assets {
       }
       Objects {
         Id: 15525572505403701869
-        Name: "Gun"
+        Name: "AttackAbility"
         Transform {
           Location {
           }

@@ -9,30 +9,29 @@ local curPainTick = 0
 local painStackLevelUp = 1
 
 function Tick(deltaTime)
+    local players = playersInBox
     if curPainTick >= painTick then
-         for i = 1, #playersInBox do
+         for i = 1, #players do
             --deal damage
-            e = Damage.New(playersInBox[i]:GetResource("painStack"))
+            e = Damage.New(players[i]:GetResource("painStack"))
             print(e.amount)
 
-            if(e.amount >= playersInBox[i].hitPoints) then
+            if(e.amount >= players[i].hitPoints) then
                 print("dude gunna die")
-                playersInBox[i]:ApplyDamage(e)
-                playersInBox[i]:SetResource("painStack",0)
-                playersInBox[i]:SetResource("painTime",0)
+                players[i]:ApplyDamage(e)
                 table.remove(playersInBox,i)
                
             else
-                playersInBox[i]:ApplyDamage(e)
+                players[i]:ApplyDamage(e)
             
             
-                playersInBox[i]:AddResource("painTime",1) --inc pain time
+                players[i]:AddResource("painTime",1) --inc pain time
     
-                if(playersInBox[i]:GetResource("painTime") >= painStackLevelUp) then     --inc pain stack?
-                    num = playersInBox[i]:GetResource("painStack") * playersInBox[i]:GetResource("painStack")
-                    playersInBox[i]:AddResource("painStack",num)
-                    playersInBox[i]:SetResource("painTime",0)
-                    print(playersInBox[i]:GetResource("painStack"))
+                if(players[i]:GetResource("painTime") >= painStackLevelUp) then     --inc pain stack?
+                    num = players[i]:GetResource("painStack") * players[i]:GetResource("painStack")
+                    players[i]:AddResource("painStack",num)
+                    players[i]:SetResource("painTime",0)
+                    print(players[i]:GetResource("painStack"))
                 end
             end
         end
@@ -43,7 +42,7 @@ function Tick(deltaTime)
 end
 function OnBeginOverlap(trigger,other)
     if other:IsA("Player") then
-        print(other.name," has entered deathbox")
+        print("Player")
         totalPlayersInBox = totalPlayersInBox + 1
         playersInBox[totalPlayersInBox] = other
         other.SetResource(other,"painStack",2)

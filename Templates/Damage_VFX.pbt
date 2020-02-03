@@ -16,128 +16,17 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 9159149294794939505
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 9159149294794939505
-        Name: "Sphere"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3492916801739856295
-        ChildIds: 10206271580460311347
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 7165914976202771874
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 10206271580460311347
-        Name: "ClientContext"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9159149294794939505
-        ChildIds: 9311520938177776386
         ChildIds: 14094112875761800110
         ChildIds: 1383644825818918737
         WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
-        Id: 9311520938177776386
-        Name: "Impact Sparks VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 5.5
-            Y: 5.5
-            Z: 5.5
-          }
-        }
-        ParentId: 10206271580460311347
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 0.269999981
-              B: 0.150198594
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 2.5
-          }
-        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Blueprint {
-          BlueprintAsset {
-            Id: 11887549032181544333
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-            TeamSettings {
-            }
-          }
+        Folder {
+          IsGroup: true
         }
       }
       Objects {
@@ -154,7 +43,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10206271580460311347
+        ParentId: 3492916801739856295
         UnregisteredParameters {
           Overrides {
             Name: "bp:Particle Scale Multiplier"
@@ -190,6 +79,7 @@ Assets {
             Float: 1.5
           }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -222,11 +112,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10206271580460311347
+        ParentId: 3492916801739856295
         UnregisteredParameters {
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 0.75
+            Float: 2.5
           }
           Overrides {
             Name: "bp:Density"
@@ -236,30 +126,8 @@ Assets {
             Name: "bp:Life"
             Float: 0.5
           }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 1
-              G: 0.950331151
-              B: 0.7
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Burst"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Local Space"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Wind Speed"
-            Vector {
-              X: -25
-            }
-          }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -278,15 +146,6 @@ Assets {
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 7165914976202771874
-      Name: "Sphere"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
       }
     }
     Assets {
