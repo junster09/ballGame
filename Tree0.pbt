@@ -23,11 +23,14 @@ Objects {
   ChildIds: 8978633346794262578
   ChildIds: 18352929695334057337
 <<<<<<< HEAD
+<<<<<<< HEAD
   ChildIds: 14982843161775482339
   ChildIds: 16813558807825262224
   ChildIds: 13047019520035519204
   ChildIds: 4656406667234666727
 =======
+=======
+>>>>>>> parent of b29b4c7... ycoutci7tctd
   ChildIds: 13047019520035519204
   ChildIds: 15506810283454430279
   ChildIds: 6002784808057827316
@@ -39,6 +42,9 @@ Objects {
   ChildIds: 9564859039053544153
   ChildIds: 6868501404278462700
   ChildIds: 12808621126379541226
+<<<<<<< HEAD
+>>>>>>> parent of b29b4c7... ycoutci7tctd
+=======
 >>>>>>> parent of b29b4c7... ycoutci7tctd
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
@@ -50,6 +56,7 @@ Objects {
   }
 }
 Objects {
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   Id: 18352929695334057337
@@ -119,6 +126,10 @@ Objects {
 Objects {
   Id: 8978633346794262578
   Name: "Static Player Equipment"
+=======
+  Id: 12808621126379541226
+  Name: "Damage_VFX"
+>>>>>>> parent of b29b4c7... ycoutci7tctd
 =======
   Id: 12808621126379541226
   Name: "Damage_VFX"
@@ -564,6 +575,7 @@ Objects {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
+<<<<<<< HEAD
     }
     UseParentWidth: true
     UseParentHeight: true
@@ -578,6 +590,22 @@ Objects {
         A: 1
       }
     }
+=======
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 12923701138268279279
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+>>>>>>> parent of b29b4c7... ycoutci7tctd
     AnchorLayout {
       SelfAnchor {
         Anchor {
