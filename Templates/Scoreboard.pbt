@@ -20,7 +20,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:Binding"
-            String: "ability_extra_0"
+            String: "ability_extra_19"
           }
           Overrides {
             Name: "cs:ShowAtRoundEnd"
@@ -152,7 +152,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           RenderTransformPivot {
@@ -200,6 +200,8 @@ Assets {
         Control {
           Width: 1200
           Height: 800
+          UIX: 50
+          UIY: -50
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -210,12 +212,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomleft"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomleft"
               }
             }
           }
