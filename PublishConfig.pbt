@@ -1,10 +1,17 @@
 GameId: "8dc958c1bdb34cb3a384fea77ea26dc3"
 ClientVersion: "1.0.110-prod-s"
-Name: "ballGame"
-Description: "A world full of crates!"
+Name: "Space Junkers"
+Description: "Top Down space explorer Game"
 MaxPlayers: 8
-IsPrivate: true
-GameGenres: Other
-IsOpenForEdit: true
-Tags: "jesse"
-ScreenshotPaths: "C:/Users/aArtuz/Documents/My Games/CORE/Saved/Maps/ballGame/Screenshots/Screenshot0002.png"
+GameGenres: DeathMatch
+Tags: "space"
+Tags: "scifi"
+Tags: "shooter"
+Tags: "topdown"
+Tags: "gun"
+Tags: "multiplayer"
+ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (1).png"
+ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (2).png"
+ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (3).png"
+ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (4).png"
+ScreenshotPaths: "C:\\Users\\aArtuz\\Downloads\\unknown (5).png"

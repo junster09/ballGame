@@ -1,30 +1,51 @@
 local EQUIPMENT = script:GetCustomProperty("thisEQ"):WaitForObject()
-
+local MAX_HEALTH = script:GetCustomProperty("MaxHealth")
+local MOVE_SPEED = script:GetCustomProperty("MoveSpeed")
+local DEATH_EFFECTS = script:GetCustomProperty("deathEffects")
+local DAMAGE_FX = script:GetCustomProperty("damageFX")
 
 local thisPlayer
-local currency = 0
 UI.SetCursorVisible(true)
 
+function Tick(deltaTime)
+    if(EQUIPMENT.owner ~= nil) then
+        r = EQUIPMENT.owner:GetWorldPosition()
+        EQUIPMENT.owner:SetWorldPosition(Vector3.New(r.x,r.y,0))
+    end
+end
 
-function OnEquipped(_,player)
-    thisPlayer = player
-    UpdateCurrencyToServer()
+function OnEquipped(_, player)
+   
+    print(player.name)
+    player:SetVisibility(false)
 
+    if player == EQUIPMENT.owner then
+        thisPlayer = player
+        player.maxHitPoints = MAX_HEALTH
+        player.hitPoints = MAX_HEALTH
+        player.maxWalkSpeed = MOVE_SPEED
+        player.diedEvent:Connect(OnPlayerDeath)
+        player.damagedEvent:Connect(OnDamaged)
+    end
+
+end
+
+function OnDamaged(player,damage)
+--World.SpawnAsset(string assetId, [table parameters])	
+
+u = World.SpawnAsset(DAMAGE_FX,{parent = script.parent})
+Task.Wait(0.7)
+--u.Destroy()
+end
+
+function OnPlayerDeath(player,_)
+    --play thingy...
+    e = World.SpawnAsset(DEATH_EFFECTS,{parent = script.parent})
+    Task.Wait(1)
+    --e.Destroy()
 
 
 end
 
-function onGainCurrency(amount)
-    print("Event recieved")
-    currency = currency + amount
-    UpdateCurrencyToServer()
-end
-
-function UpdateCurrencyToServer()
-
-    thisPlayer.serverUserData.currency = currency
-    print(thisPlayer.serverUserData.currency)
-end
 
 EQUIPMENT.equippedEvent:Connect(OnEquipped)
-Events.Connect("GainCurrency",onGainCurrency,amount)
