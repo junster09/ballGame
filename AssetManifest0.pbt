@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18033496229113730471
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
   Id: 17911866662790028205
   Name: "Pyramid - 4-Sided Truncated Polished"
   PlatformAssetType: 1
@@ -89,15 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16383008434975014508
-  Name: "Diamond - 6-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_diamond_6_sided_001"
-  }
-}
-Assets {
   Id: 16315162904582089110
   Name: "Ambience Alien Designed 02 SFX"
   PlatformAssetType: 7
@@ -134,15 +134,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15466312846115957867
-  Name: "Metal Iron 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_001"
-  }
-}
-Assets {
   Id: 15363179538433175477
   Name: "Dust Motes Volume VFX"
   PlatformAssetType: 8
@@ -167,15 +158,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_mag_004"
-  }
-}
-Assets {
-  Id: 15277905933786352956
-  Name: "Cylinder - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_test_001"
   }
 }
 Assets {
@@ -296,15 +278,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12637801335342129827
-  Name: "Modern Weapon Accessory - Rail 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_acc_rail_002"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -395,15 +368,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9587142875035991904
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
-  }
-}
-Assets {
   Id: 9088250226673447474
   Name: "Cone - Bullet"
   PlatformAssetType: 1
@@ -428,15 +392,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_sf_gen_tech-panel_002_uv"
-  }
-}
-Assets {
-  Id: 8841879491218871194
-  Name: "Metal Diamond Plates 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_rust_diamond-plate_001"
   }
 }
 Assets {
@@ -620,24 +575,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6216138434767726778
-  Name: "Modern Weapon - Scope 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_scope_002"
-  }
-}
-Assets {
-  Id: 5898411027378449534
-  Name: "Metal Steel Brushed"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stainless-steel_001_uv"
-  }
-}
-Assets {
   Id: 5784987745523139238
   Name: "Metal Frame 01"
   PlatformAssetType: 2
@@ -680,15 +617,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_foregrip_002"
-  }
-}
-Assets {
-  Id: 4065531060354892219
-  Name: "Metal Iron Rusted 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_003"
   }
 }
 Assets {
@@ -788,15 +716,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
-  }
-}
-Assets {
-  Id: 2609579708840453906
-  Name: "Metal Basic Steel"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "steel_001"
   }
 }
 Assets {
@@ -923,15 +842,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weapons_grenade_sphere_001"
-  }
-}
-Assets {
-  Id: 366934271255012951
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
