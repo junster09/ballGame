@@ -49,10 +49,10 @@ function Tick(deltaTime)
             
 end
 
-function onPlayerConnect(player)
+function OnPlayerConnect(player)
     
     print(player)
-    e = World.SpawnAsset(STARTER_SHIP)
+    local e = World.SpawnAsset(STARTER_SHIP)
     e:Equip(player)
 
     player.AddResource(player,"painStack",1)
@@ -61,4 +61,4 @@ function onPlayerConnect(player)
 end
 
 --print("Connecting")
-Game.playerJoinedEvent:Connect(onPlayerConnect)
+Game.playerJoinedEvent:Connect(OnPlayerConnect)
