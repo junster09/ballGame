@@ -30,7 +30,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Folder {
           IsGroup: true
@@ -59,15 +59,9 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:pickupSound"
+            Name: "cs:pickupFX"
             AssetReference {
-              Id: 9228992628601467127
-            }
-          }
-          Overrides {
-            Name: "cs:pickupVFX"
-            AssetReference {
-              Id: 14643920605951057780
+              Id: 721465309495401448
             }
           }
         }

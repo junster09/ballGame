@@ -59,15 +59,9 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:pickupSound"
+            Name: "cs:pickupFX"
             AssetReference {
-              Id: 9228992628601467127
-            }
-          }
-          Overrides {
-            Name: "cs:pickupVFX"
-            AssetReference {
-              Id: 14643920605951057780
+              Id: 721465309495401448
             }
           }
         }

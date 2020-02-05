@@ -35,7 +35,8 @@ function Tick(deltaTime)
     if curPainTick >= painTick then
         players = Game:GetPlayers()
         for i = 1, #players do
-            e = Damage.New(0.5)
+            local e = Damage.New(0.5)
+            e.reason = DamageReason.MAP
             players[i]:ApplyDamage(e)
         end
         curPainTick = 0

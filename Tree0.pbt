@@ -11212,7 +11212,6 @@ Objects {
   ChildIds: 17703315397867312150
   ChildIds: 65561358457579174
   ChildIds: 17271632412967931518
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11257,7 +11256,7 @@ Objects {
     Location {
       X: 15
       Y: -50
-      Z: -34.9960938
+      Z: -35
     }
     Rotation {
       Yaw: -90.0000153
@@ -11430,7 +11429,6 @@ Objects {
   ChildIds: 17214432201801812426
   ChildIds: 9701803382296093997
   ChildIds: 7069442837932518706
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11474,7 +11472,7 @@ Objects {
     Location {
       X: -45.0234375
       Y: 40.03125
-      Z: -34.9960938
+      Z: -35
     }
     Rotation {
       Yaw: -6.10351453e-05
@@ -11649,7 +11647,6 @@ Objects {
   ChildIds: 14657311601529939839
   ChildIds: 8896512046150843590
   ChildIds: 1267730879011857341
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11867,7 +11864,6 @@ Objects {
   ChildIds: 6886336672592034480
   ChildIds: 10782452980776454607
   ChildIds: 8168046552195677016
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12105,6 +12101,7 @@ Objects {
     Location {
       X: 30
       Y: 36555
+      Z: -35
     }
     Rotation {
       Yaw: 89.9999542
@@ -12198,6 +12195,7 @@ Objects {
     Location {
       X: 29.984375
       Y: -36815
+      Z: -35
     }
     Rotation {
       Yaw: 89.9999542
@@ -12291,6 +12289,7 @@ Objects {
     Location {
       X: -36745
       Y: 180
+      Z: -35
     }
     Rotation {
     }
@@ -12383,6 +12382,7 @@ Objects {
     Location {
       X: 36655
       Y: 180
+      Z: -35
     }
     Rotation {
     }
@@ -12475,6 +12475,7 @@ Objects {
     Location {
       X: 30
       Y: 35095
+      Z: -35
     }
     Rotation {
       Yaw: 89.9999542
@@ -12556,6 +12557,7 @@ Objects {
     Location {
       X: 29.984375
       Y: -35485
+      Z: -35
     }
     Rotation {
       Yaw: 89.9999542
@@ -12637,6 +12639,7 @@ Objects {
     Location {
       X: 29.9882813
       Y: -32280
+      Z: -35
     }
     Rotation {
       Yaw: 89.9999542
@@ -12718,6 +12721,7 @@ Objects {
     Location {
       X: 30
       Y: 31840
+      Z: -35
     }
     Rotation {
       Yaw: 89.9999542
@@ -12799,6 +12803,7 @@ Objects {
     Location {
       X: -35300
       Y: 180
+      Z: -35
     }
     Rotation {
     }
@@ -12879,6 +12884,7 @@ Objects {
     Location {
       X: -32095
       Y: 180
+      Z: -35
     }
     Rotation {
     }
@@ -12959,6 +12965,7 @@ Objects {
     Location {
       X: 35280
       Y: 180
+      Z: -35
     }
     Rotation {
     }
@@ -13039,6 +13046,7 @@ Objects {
     Location {
       X: 32025
       Y: 180
+      Z: -35
     }
     Rotation {
     }

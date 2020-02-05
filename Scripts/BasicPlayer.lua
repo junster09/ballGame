@@ -31,11 +31,10 @@ function OnEquipped(_, player)
 end
 
 function OnDamaged(player,damage)
---World.SpawnAsset(string assetId, [table parameters])	
+if(damage.reason ~= DamageReason.MAP) then
+    u = World.SpawnAsset(DAMAGE_FX,{parent = script.parent})
+end
 
-u = World.SpawnAsset(DAMAGE_FX,{parent = script.parent})
-Task.Wait(0.7)
---u.Destroy()
 end
 
 function OnPlayerDeath(player,_)
