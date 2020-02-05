@@ -38,12 +38,9 @@ Assets {
             AutoPlay: true
             Repeat: true
             Pitch: -425
-            Volume: 0.35
+            Volume: 0.1
             Falloff: 3600
             Radius: 900000
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
           }
         }
       }

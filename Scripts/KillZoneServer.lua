@@ -22,7 +22,7 @@ local KILL_TRIGGER = script:GetCustomProperty("KillTrigger"):WaitForObject()
 -- Kills a player when they enter the trigger
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player") then
-        other:Die()
+        other:ApplyDamage(Damage.New(9999))
     end
 end
 

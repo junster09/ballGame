@@ -93,9 +93,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 2.75
-            Y: 2.75
-            Z: 25
+            X: 4.50000095
+            Y: 4.50000095
+            Z: 41.7500038
           }
         }
         ParentId: 15654876103255048715
@@ -112,7 +112,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
+            Value: "mc:etriggershape:capsule"
           }
         }
       }
