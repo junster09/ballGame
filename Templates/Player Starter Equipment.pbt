@@ -17,7 +17,7 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 12215052236414668
-        ChildIds: 2834029079861181614
+        ChildIds: 5708946409792577930
         ChildIds: 4596711183647032747
         UnregisteredParameters {
         }
@@ -69,7 +69,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MoveSpeed"
-            Int: 1000
+            Int: 2000
           }
           Overrides {
             Name: "cs:deathEffects"
@@ -98,21 +98,21 @@ Assets {
         }
       }
       Objects {
-        Id: 2834029079861181614
-        Name: "Group"
+        Id: 5708946409792577930
+        Name: "ClientContext"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: -0.5
-            Y: 0.5
-            Z: -0.5
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 12648030414394458403
-        ChildIds: 4409686975474186800
+        ChildIds: 1482813393296711048
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -120,26 +120,24 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Folder {
-          IsGroup: true
+        NetworkContext {
         }
       }
       Objects {
-        Id: 4409686975474186800
-        Name: "Spaceship1"
+        Id: 1482813393296711048
+        Name: "ship"
         Transform {
           Location {
-            Y: 210.209595
           }
           Rotation {
           }
           Scale {
-            X: 4.00000048
-            Y: 4.00000048
-            Z: 4.00000048
+            X: -2.00000024
+            Y: 2.00000024
+            Z: -2.00000024
           }
         }
-        ParentId: 2834029079861181614
+        ParentId: 5708946409792577930
         ChildIds: 15026881611956906543
         ChildIds: 17587516811229210357
         ChildIds: 543491626223225971
@@ -163,7 +161,6 @@ Assets {
         ChildIds: 5783108499797172135
         ChildIds: 2264839275206658728
         ChildIds: 2446812535918472265
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -179,13 +176,13 @@ Assets {
         Name: "Scifi Panel 2x3m Triangle"
         Transform {
           Location {
-            X: 12.4999981
-            Y: -12.4999981
+            X: 22.4999695
+            Y: 37.4999847
             Z: 2.98023187e-05
           }
           Rotation {
-            Yaw: -89.9997482
-            Roll: -0.000102452243
+            Yaw: -89.9996796
+            Roll: -0.000102452177
           }
           Scale {
             X: 0.24999997
@@ -193,7 +190,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -202,7 +199,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -227,14 +223,14 @@ Assets {
         Name: "Scifi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: -74.9999924
-            Y: -74.9999924
+            X: -65
+            Y: -24.9999847
             Z: 0.00017881392
           }
           Rotation {
             Pitch: -0.000136603776
-            Yaw: 89.9999924
-            Roll: 180
+            Yaw: 89.9999619
+            Roll: -179.999954
           }
           Scale {
             X: 0.24999997
@@ -242,7 +238,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -260,7 +256,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -285,14 +280,14 @@ Assets {
         Name: "Cone - Truncated Hollow Thin"
         Transform {
           Location {
-            X: 37.4999962
-            Y: -49.9999924
+            X: 47.4999695
+            Y: 1.52587891e-05
             Z: 0.000119209275
           }
           Rotation {
             Pitch: -90
-            Yaw: -85.7120285
-            Roll: -94.2878418
+            Yaw: -0.000218566041
+            Roll: -179.999634
           }
           Scale {
             X: 0.37499994
@@ -300,7 +295,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -309,7 +304,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -334,8 +328,8 @@ Assets {
         Name: "Ring - Thick"
         Transform {
           Location {
-            X: -37.4999962
-            Y: -49.9999924
+            X: -27.5000305
+            Y: 1.52587891e-05
             Z: 0.000119209275
           }
           Rotation {
@@ -347,7 +341,7 @@ Assets {
             Z: 0.37499994
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -356,7 +350,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -381,8 +374,8 @@ Assets {
         Name: "Ball"
         Transform {
           Location {
-            X: -37.4999962
-            Y: -49.9999924
+            X: -27.5000305
+            Y: 1.52587891e-05
             Z: 0.000119209275
           }
           Rotation {
@@ -394,7 +387,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -412,7 +405,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -437,14 +429,14 @@ Assets {
         Name: "Arch"
         Transform {
           Location {
-            X: -18.7499981
-            Y: -49.9999924
+            X: -8.75003052
+            Y: 1.52587891e-05
             Z: 0.000119209275
           }
           Rotation {
-            Pitch: -0.000136603776
-            Yaw: 89.9998932
-            Roll: 89.9999771
+            Pitch: -0.000122943398
+            Yaw: 89.999855
+            Roll: 89.9999161
           }
           Scale {
             X: 0.24999997
@@ -452,7 +444,7 @@ Assets {
             Z: 0.31249997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -461,7 +453,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -486,14 +477,14 @@ Assets {
         Name: "Scifi Panel 1x3m Angled Right"
         Transform {
           Location {
-            X: -74.9999924
-            Y: -24.9999962
+            X: -65
+            Y: 24.9999847
             Z: 5.96046375e-05
           }
           Rotation {
             Pitch: -0.000136603776
-            Yaw: 89.9999924
-            Roll: 180
+            Yaw: 89.9999619
+            Roll: -179.999954
           }
           Scale {
             X: 0.24999997
@@ -501,7 +492,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -519,7 +510,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -544,14 +534,14 @@ Assets {
         Name: "Arch"
         Transform {
           Location {
-            X: 12.4999981
-            Y: -49.9999924
+            X: 22.4999695
+            Y: 1.52587891e-05
             Z: 0.000119209275
           }
           Rotation {
-            Pitch: -0.000136603776
-            Yaw: 89.9998932
-            Roll: 89.9999771
+            Pitch: -0.000102452832
+            Yaw: 89.999855
+            Roll: 89.9999237
           }
           Scale {
             X: 0.24999997
@@ -559,7 +549,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -568,7 +558,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -593,14 +582,14 @@ Assets {
         Name: "Scifi Panel 2x3m Triangle"
         Transform {
           Location {
-            X: 12.4999981
-            Y: -87.4999924
+            X: 22.4999695
+            Y: -37.4999847
             Z: 0.000208616228
           }
           Rotation {
             Pitch: -0.000136603776
-            Yaw: 89.9998779
-            Roll: -180
+            Yaw: 89.9998703
+            Roll: 179.999985
           }
           Scale {
             X: 0.24999997
@@ -608,7 +597,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -617,7 +606,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -642,14 +630,14 @@ Assets {
         Name: "Scifi Panel 1x4m Corner-cut"
         Transform {
           Location {
-            X: -12.4999981
-            Y: -74.9999924
+            X: -2.50003052
+            Y: -24.9999847
             Z: 0.00017881392
           }
           Rotation {
             Pitch: 0.000355169817
-            Yaw: -89.9998703
-            Roll: -0.000232226113
+            Yaw: -89.9998169
+            Roll: -0.000232225895
           }
           Scale {
             X: 0.24999997
@@ -657,7 +645,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -675,7 +663,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -700,14 +687,14 @@ Assets {
         Name: "Prism - 8-Sided Half"
         Transform {
           Location {
-            X: -12.4999981
-            Y: -49.9999466
+            X: -2.50003052
+            Y: 7.62939453e-05
             Z: 18.7501163
           }
           Rotation {
             Pitch: 90
-            Yaw: 88.5679
-            Roll: -91.4319458
+            Yaw: -54.7355576
+            Roll: 125.264587
           }
           Scale {
             X: 0.24999997
@@ -715,7 +702,7 @@ Assets {
             Z: 0.874999881
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -724,7 +711,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -749,14 +735,14 @@ Assets {
         Name: "Scifi Panel 1x4m Corner-cut"
         Transform {
           Location {
-            X: -12.4999981
-            Y: -24.9999962
+            X: -2.50003052
+            Y: 24.9999847
             Z: 5.96046375e-05
           }
           Rotation {
             Pitch: -0.000136603776
-            Yaw: 89.9999924
-            Roll: 180
+            Yaw: 89.9999619
+            Roll: -179.999954
           }
           Scale {
             X: 0.24999997
@@ -764,7 +750,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -782,7 +768,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -807,12 +792,13 @@ Assets {
         Name: "Trash Can - Urban 01"
         Transform {
           Location {
-            Y: -49.9999924
+            X: 9.99996948
+            Y: 1.52587891e-05
             Z: 0.000119209275
           }
           Rotation {
             Pitch: 70.0001144
-            Yaw: -89.9999695
+            Yaw: -89.9999771
             Roll: 90.0002365
           }
           Scale {
@@ -821,7 +807,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
@@ -839,7 +825,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -864,14 +849,14 @@ Assets {
         Name: "Ring - Thick"
         Transform {
           Location {
-            X: 31.2499962
-            Y: -49.9999924
+            X: 41.2499695
+            Y: 1.52587891e-05
             Z: 0.000119209275
           }
           Rotation {
             Pitch: 90
-            Yaw: 77.3195877
-            Roll: -102.680267
+            Yaw: -54.7356339
+            Roll: 125.264496
           }
           Scale {
             X: 0.24999997
@@ -879,7 +864,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -888,7 +873,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -913,14 +897,14 @@ Assets {
         Name: "Lense - Half"
         Transform {
           Location {
-            X: -37.4999962
-            Y: -49.9999771
+            X: -27.5000305
+            Y: 4.57763672e-05
             Z: 6.25011826
           }
           Rotation {
             Pitch: 0.000184415097
             Yaw: 179.999954
-            Roll: -9.5622614e-05
+            Roll: -9.56225776e-05
           }
           Scale {
             X: 0.18749997
@@ -928,7 +912,7 @@ Assets {
             Z: 0.18749997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -941,7 +925,6 @@ Assets {
             Bool: false
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -966,7 +949,8 @@ Assets {
         Name: "Modern Weapon - Scope 02"
         Transform {
           Location {
-            Y: -99.9999847
+            X: 9.99996948
+            Y: -49.9999924
             Z: 0.00023841855
           }
           Rotation {
@@ -977,8 +961,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4409686975474186800
-        WantsNetworking: true
+        ParentId: 1482813393296711048
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1003,14 +986,14 @@ Assets {
         Name: "SciFi Trim 01"
         Transform {
           Location {
-            X: 14.9999981
-            Y: -74.9999924
+            X: 24.9999695
+            Y: -24.9999847
             Z: 0.00017881392
           }
           Rotation {
             Pitch: 0.000136603776
             Yaw: -89.9998474
-            Roll: -180
+            Roll: 179.999985
           }
           Scale {
             X: 0.124999985
@@ -1018,7 +1001,7 @@ Assets {
             Z: 0.124999985
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1036,7 +1019,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1061,14 +1043,14 @@ Assets {
         Name: "Wedge - Convex"
         Transform {
           Location {
-            X: -12.4999981
-            Y: -31.2499657
+            X: -2.50003052
+            Y: 18.7500153
             Z: 12.5000725
           }
           Rotation {
             Pitch: -4.09811328e-05
-            Yaw: -9.93350818e-11
-            Roll: 90.0001602
+            Yaw: -7.32799793e-11
+            Roll: 90.0000916
           }
           Scale {
             X: 0.49999994
@@ -1076,7 +1058,7 @@ Assets {
             Z: 0.18749997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1085,7 +1067,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1110,14 +1091,14 @@ Assets {
         Name: "SciFi Trim 01"
         Transform {
           Location {
-            X: 14.9999981
-            Y: -24.9999962
+            X: 24.9999695
+            Y: 24.9999847
             Z: 5.96046375e-05
           }
           Rotation {
             Pitch: 0.000136603776
             Yaw: -89.9998474
-            Roll: -180
+            Roll: 179.999985
           }
           Scale {
             X: 0.124999985
@@ -1125,7 +1106,7 @@ Assets {
             Z: 0.124999985
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1143,7 +1124,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1168,14 +1148,14 @@ Assets {
         Name: "Wedge - Convex"
         Transform {
           Location {
-            X: -12.4999981
-            Y: -68.7499619
+            X: -2.50003052
+            Y: -18.7499542
             Z: 12.5001621
           }
           Rotation {
             Pitch: -4.09811328e-05
             Yaw: 179.999954
-            Roll: 89.9999084
+            Roll: 89.9998398
           }
           Scale {
             X: 0.49999994
@@ -1183,7 +1163,7 @@ Assets {
             Z: 0.18749997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1192,7 +1172,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1217,6 +1196,8 @@ Assets {
         Name: "Modern Weapon - Scope 02"
         Transform {
           Location {
+            X: 9.99996948
+            Y: 49.9999847
           }
           Rotation {
           }
@@ -1226,8 +1207,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4409686975474186800
-        WantsNetworking: true
+        ParentId: 1482813393296711048
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1252,14 +1232,14 @@ Assets {
         Name: "Computer Monitor 01"
         Transform {
           Location {
-            X: -47.4999962
-            Y: -49.9999924
+            X: -37.4999847
+            Y: 1.52587891e-05
             Z: 0.000119209275
           }
           Rotation {
             Pitch: -0.000136603776
             Yaw: 89.999939
-            Roll: -180
+            Roll: 179.999985
           }
           Scale {
             X: 0.0624999925
@@ -1267,8 +1247,7 @@ Assets {
             Z: 0.0624999925
           }
         }
-        ParentId: 4409686975474186800
-        WantsNetworking: true
+        ParentId: 1482813393296711048
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1293,7 +1272,8 @@ Assets {
         Name: "Trash Can - Urban 01"
         Transform {
           Location {
-            Y: -49.9999924
+            X: 9.99996948
+            Y: 1.52587891e-05
             Z: 0.000122070298
           }
           Rotation {
@@ -1307,7 +1287,7 @@ Assets {
             Z: 0.24999997
           }
         }
-        ParentId: 4409686975474186800
+        ParentId: 1482813393296711048
         ChildIds: 840295172326198360
         UnregisteredParameters {
           Overrides {
@@ -1326,7 +1306,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1362,9 +1341,8 @@ Assets {
         }
         ParentId: 2446812535918472265
         ChildIds: 8951021319507640465
-        WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1394,7 +1372,6 @@ Assets {
         }
         ParentId: 840295172326198360
         ChildIds: 17964353493176946231
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1409,9 +1386,9 @@ Assets {
         Name: "Rocket Trail VFX"
         Transform {
           Location {
-            X: 99.9999771
-            Y: 2.58141918e-05
-            Z: -25.0001373
+            X: -59.9980469
+            Y: 4.99974442
+            Z: 4.83758377e-05
           }
           Rotation {
           }

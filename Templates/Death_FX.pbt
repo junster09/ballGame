@@ -16,73 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 3039765158731164736
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 3039765158731164736
-        Name: "Ball"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6065300252641844902
-        ChildIds: 17206280157329564783
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 4734780502947683559
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 17206280157329564783
-        Name: "Group"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3039765158731164736
         ChildIds: 13363444211078239460
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceon"
@@ -105,7 +42,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17206280157329564783
+        ParentId: 6065300252641844902
         ChildIds: 8329684481779929416
         ChildIds: 15801095768249916903
         WantsNetworking: true
@@ -146,8 +83,7 @@ Assets {
           AutoPlay: true
           Volume: 4
           Falloff: 3600
-          Radius: 400
-          EnableOcclusion: true
+          Radius: 4000
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -253,15 +189,6 @@ Assets {
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 4734780502947683559
-      Name: "Ball"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_001"
       }
     }
     Assets {

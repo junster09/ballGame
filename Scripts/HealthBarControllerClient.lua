@@ -19,7 +19,10 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 local AS = require(script:GetCustomProperty("API"))
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local TEXT_BOX = script:GetCustomProperty("TextBox"):WaitForObject()
+
 local PROGRESS_BAR = script:GetCustomProperty("ProgressBar"):WaitForObject()
+local CRITICAL_COLOR = PROGRESS_BAR:GetCustomProperty("CriticalColor")
+local NORMAL_COLOR = PROGRESS_BAR:GetFillColor()
 
 -- User exposed properties
 local SHOW_NUMBER = COMPONENT_ROOT:GetCustomProperty("ShowNumber")
@@ -43,6 +46,7 @@ function Tick(deltaTime)
     if player then
         local healthFraction = player.hitPoints / player.maxHitPoints
         PROGRESS_BAR.progress = healthFraction
+        PROGRESS_BAR:SetFillColor(Color.Lerp(CRITICAL_COLOR,NORMAL_COLOR,healthFraction))
 
         if SHOW_NUMBER then
             if SHOW_MAXIMUM then

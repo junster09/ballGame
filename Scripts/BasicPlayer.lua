@@ -25,6 +25,7 @@ function OnEquipped(_, player)
         player.hitPoints = MAX_HEALTH
         player.maxWalkSpeed = MOVE_SPEED
         player.diedEvent:Connect(OnPlayerDeath)
+        player.respawnedEvent:Connect(OnPlayerSpawn)
         player.damagedEvent:Connect(OnDamaged)
     end
 
@@ -44,5 +45,9 @@ function OnPlayerDeath(player,_)
 
 end
 
+function OnPlayerSpawn(player)
+player.hitPoints = player.maxHitPoints/2
+
+end
 
 EQUIPMENT.equippedEvent:Connect(OnEquipped)

@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14133878955479763867
+  Name: "Icon Settings"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Settings"
+  }
+}
+Assets {
   Id: 12923701138268279279
   Name: "Frame Beveled 006"
   PlatformAssetType: 9
@@ -185,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 7424222109346492661
+  Name: "BG Highlighted 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_019"
   }
 }
 Assets {

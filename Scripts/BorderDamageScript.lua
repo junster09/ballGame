@@ -12,16 +12,14 @@ function Tick(deltaTime)
     if curPainTick >= painTick then
          for i = 1, #playersInBox do
             --deal damage
-            e = Damage.New(playersInBox[i]:GetResource("painStack"))
-            print(e.amount)
+            local e = Damage.New(playersInBox[i]:GetResource("painStack"))
+            
 
             if(e.amount >= playersInBox[i].hitPoints) then
                 print("dude gunna die")
                 playersInBox[i]:ApplyDamage(e)
-                playersInBox[i]:SetResource("painStack",0)
-                playersInBox[i]:SetResource("painTime",0)
-                table.remove(playersInBox,i)
-               
+                break
+
             else
                 playersInBox[i]:ApplyDamage(e)
             
@@ -29,10 +27,10 @@ function Tick(deltaTime)
                 playersInBox[i]:AddResource("painTime",1) --inc pain time
     
                 if(playersInBox[i]:GetResource("painTime") >= painStackLevelUp) then     --inc pain stack?
-                    num = playersInBox[i]:GetResource("painStack") * playersInBox[i]:GetResource("painStack")
+                    local num = playersInBox[i]:GetResource("painStack") * playersInBox[i]:GetResource("painStack")
                     playersInBox[i]:AddResource("painStack",num)
                     playersInBox[i]:SetResource("painTime",0)
-                    print(playersInBox[i]:GetResource("painStack"))
+
                 end
             end
         end
@@ -43,9 +41,12 @@ function Tick(deltaTime)
 end
 function OnBeginOverlap(trigger,other)
     if other:IsA("Player") then
-        print(other.name," has entered deathbox")
         totalPlayersInBox = totalPlayersInBox + 1
         playersInBox[totalPlayersInBox] = other
+
+        for i=1, #playersInBox do
+            print(playersInBox[i].name)
+        end
         other.SetResource(other,"painStack",2)
         other.SetResource(other,"painTime",0)
 
@@ -55,11 +56,12 @@ end
 function OnEndOverlap(trigger,other)
     if other:IsA("Player") then
         for i=1, #playersInBox do
-            if playersInBox[i] == player then
+            
+            if playersInBox[i] == other then
                 table.remove(playersInBox,i)
                 totalPlayersInBox = totalPlayersInBox - 1
-                other.SetResource(player,"painStack",0)
-                other.SetResource(player,"painTime",0)
+                other:SetResource("painStack",0)
+                other:SetResource("painTime",0)
                 break
             end
         end
