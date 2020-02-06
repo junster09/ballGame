@@ -16518,7 +16518,7 @@ Objects {
     RotationOffset {
       Pitch: -90
     }
-    FieldOfView: 90
+    FieldOfView: 100
     ViewWidth: 5000
   }
 }

@@ -5,8 +5,8 @@ Objects {
   Name: "Station 3"
   Transform {
     Location {
-      X: 382.967773
-      Y: -7014.03516
+      X: -24200
+      Y: 9850
       Z: -204.836426
     }
     Rotation {
@@ -5866,11 +5866,12 @@ Objects {
   Name: "Station 2"
   Transform {
     Location {
-      X: -2581.62109
-      Y: -16166.25
+      X: -5400
+      Y: -13400.0039
       Z: 248.551758
     }
     Rotation {
+      Yaw: -134.999847
     }
     Scale {
       X: 5
@@ -20087,8 +20088,8 @@ Objects {
   Name: "BG Object (B) 1"
   Transform {
     Location {
-      X: 9836.29688
-      Y: -13238.0313
+      X: 12200
+      Y: 22300
       Z: 700
     }
     Rotation {
