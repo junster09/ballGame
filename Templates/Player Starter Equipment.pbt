@@ -17,8 +17,9 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 12215052236414668
-        ChildIds: 5708946409792577930
         ChildIds: 4596711183647032747
+        ChildIds: 368532869600633963
+        ChildIds: 5708946409792577930
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -83,6 +84,28 @@ Assets {
               Id: 7979897926698893397
             }
           }
+          Overrides {
+            Name: "cs:PlayerHead"
+            ObjectReference {
+              SubObjectId: 368532869600633963
+            }
+          }
+          Overrides {
+            Name: "cs:CriticalColor"
+            Color {
+              R: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:NormalColor"
+            Color {
+              R: 0.00784313772
+              G: 0.941176534
+              B: 1
+              A: 1
+            }
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -95,6 +118,172 @@ Assets {
           ScriptAsset {
             Id: 13543299419363558957
           }
+        }
+      }
+      Objects {
+        Id: 4596711183647032747
+        Name: "Self-Destruct"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12648030414394458403
+        ChildIds: 12858686703383062229
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Ability {
+          IsEnabled: true
+          CastPhaseSettings {
+            Duration: 0.15
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:aim"
+            }
+          }
+          ExecutePhaseSettings {
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:aim"
+            }
+          }
+          RecoveryPhaseSettings {
+            Duration: 0.1
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          CooldownPhaseSettings {
+            Duration: 3
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          Animation: "1hand_melee_slash_left"
+          KeyBinding_v2 {
+            Value: "mc:egameaction:extraaction_33"
+          }
+        }
+      }
+      Objects {
+        Id: 12858686703383062229
+        Name: "KillYourselfScript"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4596711183647032747
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ability"
+            ObjectReference {
+              SubObjectId: 4596711183647032747
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13661957573859182631
+          }
+        }
+      }
+      Objects {
+        Id: 368532869600633963
+        Name: "Ship Head"
+        Transform {
+          Location {
+            X: 55.0000687
+            Y: 3.05175818e-05
+            Z: -0.000238418579
+          }
+          Rotation {
+            Roll: 179.999863
+          }
+          Scale {
+            X: -0.5
+            Y: 0.5
+            Z: -0.5
+          }
+        }
+        ParentId: 12648030414394458403
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4620615145667919762
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.00784313772
+              G: 0.941176534
+              B: 1
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceon"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 4734780502947683559
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
         }
       }
       Objects {
@@ -112,6 +301,7 @@ Assets {
           }
         }
         ParentId: 12648030414394458403
+        ChildIds: 840295172326198360
         ChildIds: 1482813393296711048
         WantsNetworking: true
         Collidable_v2 {
@@ -121,6 +311,146 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 840295172326198360
+        Name: "Trail"
+        Transform {
+          Location {
+            Y: 3.05175781e-05
+            Z: -0.000244140625
+          }
+          Rotation {
+            Pitch: -69.9996948
+            Yaw: 89.9999542
+            Roll: 90.000061
+          }
+          Scale {
+            X: -0.5
+            Y: 0.5
+            Z: -0.5
+          }
+        }
+        ParentId: 5708946409792577930
+        ChildIds: 15033971946899787431
+        ChildIds: 17964353493176946231
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 15033971946899787431
+        Name: "RocketTrailVFXScript"
+        Transform {
+          Location {
+            X: -3.05175781e-05
+          }
+          Rotation {
+          }
+          Scale {
+            X: -2
+            Y: 2
+            Z: -2
+          }
+        }
+        ParentId: 840295172326198360
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Trail"
+            ObjectReference {
+              SubObjectId: 17964353493176946231
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9569140516012364013
+          }
+        }
+      }
+      Objects {
+        Id: 17964353493176946231
+        Name: "Rocket Trail VFX"
+        Transform {
+          Location {
+            X: 0.072479248
+            Y: 0.197181702
+            Z: -119.996094
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: 153.434952
+            Roll: 6.56471252
+          }
+          Scale {
+            X: -2
+            Y: 2
+            Z: -2
+          }
+        }
+        ParentId: 840295172326198360
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 50
+          }
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 3.5
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.75
+          }
+          Overrides {
+            Name: "bp:color"
+            Color {
+              R: 5
+              G: 1.33333325
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 1.25
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceon"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 18295221919314072366
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            TeamSettings {
+            }
+          }
         }
       }
       Objects {
@@ -142,7 +472,6 @@ Assets {
         ChildIds: 17587516811229210357
         ChildIds: 543491626223225971
         ChildIds: 12064694104197644798
-        ChildIds: 368532869600633963
         ChildIds: 9043639469881959748
         ChildIds: 17813233025145344590
         ChildIds: 11923740176229909173
@@ -359,61 +688,6 @@ Assets {
         StaticMesh {
           MeshAsset {
             Id: 1966052166454953742
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 368532869600633963
-        Name: "Ball"
-        Transform {
-          Location {
-            X: -27.5000305
-            Y: 1.52587891e-05
-            Z: 0.000119209275
-          }
-          Rotation {
-            Roll: -179.999863
-          }
-          Scale {
-            X: 0.24999997
-            Y: 0.24999997
-            Z: 0.24999997
-          }
-        }
-        ParentId: 1482813393296711048
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4620615145667919762
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.00999999
-              G: 0.940993309
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 4734780502947683559
           }
           Physics {
           }
@@ -1288,7 +1562,6 @@ Assets {
           }
         }
         ParentId: 1482813393296711048
-        ChildIds: 840295172326198360
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Trim:id"
@@ -1325,240 +1598,32 @@ Assets {
           EnableCameraCollision: true
         }
       }
-      Objects {
-        Id: 840295172326198360
-        Name: "Group"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2446812535918472265
-        ChildIds: 8951021319507640465
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
+    }
+    Assets {
+      Id: 4734780502947683559
+      Name: "Ball"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_sphere_001"
       }
-      Objects {
-        Id: 8951021319507640465
-        Name: "ClientContext"
-        Transform {
-          Location {
-            X: 3.49249268
-            Y: 9.59362793
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -49.8990974
-            Roll: -150.101212
-          }
-          Scale {
-            X: -2
-            Y: 2
-            Z: -2
-          }
-        }
-        ParentId: 840295172326198360
-        ChildIds: 17964353493176946231
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
+    }
+    Assets {
+      Id: 4620615145667919762
+      Name: "Emissive Glow Transparent"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_basic_emissive_001"
       }
-      Objects {
-        Id: 17964353493176946231
-        Name: "Rocket Trail VFX"
-        Transform {
-          Location {
-            X: -59.9980469
-            Y: 4.99974442
-            Z: 4.83758377e-05
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 8951021319507640465
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 50
-          }
-          Overrides {
-            Name: "bp:Smoke Color"
-            Color {
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Density"
-            Float: 3.5
-          }
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 1.75
-          }
-          Overrides {
-            Name: "bp:color"
-            Color {
-              R: 5
-              G: 1.33333325
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 1.25
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 18295221919314072366
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-            TeamSettings {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4596711183647032747
-        Name: "Self-Destruct"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12648030414394458403
-        ChildIds: 12858686703383062229
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Ability {
-          IsEnabled: true
-          CastPhaseSettings {
-            Duration: 0.15
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
-            }
-          }
-          ExecutePhaseSettings {
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
-            }
-          }
-          RecoveryPhaseSettings {
-            Duration: 0.1
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
-            }
-          }
-          CooldownPhaseSettings {
-            Duration: 3
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
-            }
-          }
-          Animation: "1hand_melee_slash_left"
-          KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_33"
-          }
-        }
-      }
-      Objects {
-        Id: 12858686703383062229
-        Name: "KillYourselfScript"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4596711183647032747
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ability"
-            ObjectReference {
-              SubObjectId: 4596711183647032747
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 13661957573859182631
-          }
-        }
+    }
+    Assets {
+      Id: 18295221919314072366
+      Name: "Rocket Trail VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_rocket_trail"
       }
     }
     Assets {
@@ -1613,24 +1678,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_torus_005"
-      }
-    }
-    Assets {
-      Id: 4734780502947683559
-      Name: "Ball"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_001"
-      }
-    }
-    Assets {
-      Id: 4620615145667919762
-      Name: "Emissive Glow Transparent"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
       }
     }
     Assets {
@@ -1739,15 +1786,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_urb_computer-monitor_001"
-      }
-    }
-    Assets {
-      Id: 18295221919314072366
-      Name: "Rocket Trail VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_rocket_trail"
       }
     }
     PrimaryAssetId {

@@ -45,8 +45,14 @@ function Tick(deltaTime)
     local player = GetViewedPlayer()
     if player then
         local healthFraction = player.hitPoints / player.maxHitPoints
+
         PROGRESS_BAR.progress = healthFraction
-        PROGRESS_BAR:SetFillColor(Color.Lerp(CRITICAL_COLOR,NORMAL_COLOR,healthFraction))
+        if(player.hitPoints <= (player.maxHitPoints * 0.2)) then
+            PROGRESS_BAR:SetFillColor(CRITICAL_COLOR)
+        else
+            PROGRESS_BAR:SetFillColor(NORMAL_COLOR)
+        
+        end
 
         if SHOW_NUMBER then
             if SHOW_MAXIMUM then

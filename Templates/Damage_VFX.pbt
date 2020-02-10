@@ -44,6 +44,7 @@ Assets {
           }
         }
         ParentId: 3492916801739856295
+        ChildIds: 9154979545211601302
         ChildIds: 10206271580460311347
         WantsNetworking: true
         Collidable_v2 {
@@ -63,6 +64,42 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 9154979545211601302
+        Name: "SoundPickerGenerator"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9159149294794939505
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IteratorFolder"
+            AssetReference {
+              Id: 446455165432879590
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 9913954781369604051
+          }
         }
       }
       Objects {

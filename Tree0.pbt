@@ -17,6 +17,7 @@ Objects {
   ChildIds: 10568894098106648577
   ChildIds: 7441004493294840497
   ChildIds: 17993845594966694773
+  ChildIds: 2433963064576598280
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -24,6 +25,50 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2433963064576598280
+  Name: "Player Starter Equipment"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12648030414394458403
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Player Starter Equipment"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 100
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3769284747068250008
+    }
   }
 }
 Objects {
@@ -17971,7 +18016,7 @@ Objects {
     PlayerMovementSettings {
       WalkSpeed: 640
       MaxAcceleration: 1800
-      BrakingDecelerationFalling: 200
+      BrakingDecelerationFalling: 400
       JumpMaxCount: 1
       JumpVelocity: 900
       GroundFriction: 8
