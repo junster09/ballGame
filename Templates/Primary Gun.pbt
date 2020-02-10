@@ -60,8 +60,9 @@ Assets {
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 1
-            BurstDuration: 4
+            BurstCount: 10000
+            BurstDuration: 2
+            BurstStopsWithRelease: true
             Range: 100000
             ImpactPlayerAssetRef {
               Id: 841534158063459245
@@ -89,7 +90,7 @@ Assets {
             }
             Damage: 10
             WeaponTrajectoryMode {
-              Value: "mc:eweapontrajectorymode:muzzletolooktarget"
+              Value: "mc:eweapontrajectorymode:custom"
             }
           }
         }
@@ -162,7 +163,6 @@ Assets {
               Value: "mc:eabilitysetfacing:none"
             }
           }
-          Animation: "2hand_rifle_shoot"
           KeyBinding_v2 {
             Value: "mc:egameaction:primaryaction"
           }

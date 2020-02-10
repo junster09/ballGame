@@ -71,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15116186686694016128
+  Name: "Center Arrow 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterArrow_003"
+  }
+}
+Assets {
   Id: 14795453977698190628
   Name: "Modern Weapon - Barrel 02"
   PlatformAssetType: 1

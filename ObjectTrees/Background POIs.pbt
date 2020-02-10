@@ -20084,13 +20084,38 @@ Objects {
   }
 }
 Objects {
-  Id: 17104492753085590771
-  Name: "BG Object (B) 1"
+  Id: 13641400711484358902
+  Name: "ClientContext"
   Transform {
     Location {
       X: 12200
       Y: 22300
       Z: 700
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2496410467182508597
+  ChildIds: 17104492753085590771
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 17104492753085590771
+  Name: "BG Object (B) 1"
+  Transform {
+    Location {
     }
     Rotation {
       Yaw: -179.999924
@@ -20101,7 +20126,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 2496410467182508597
+  ParentId: 13641400711484358902
   ChildIds: 8542998258804038268
   ChildIds: 3617088260913192141
   ChildIds: 6265796479026122473
@@ -25401,13 +25426,38 @@ Objects {
   }
 }
 Objects {
-  Id: 17197628056034872782
-  Name: "BG Object (B) 1"
+  Id: 16638963232615494985
+  Name: "ClientContext"
   Transform {
     Location {
       X: -14158.7402
       Y: 7434.34
       Z: 700
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2496410467182508597
+  ChildIds: 17197628056034872782
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 17197628056034872782
+  Name: "BG Object (B) 1"
+  Transform {
+    Location {
     }
     Rotation {
       Yaw: 89.9999542
@@ -25418,7 +25468,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 2496410467182508597
+  ParentId: 16638963232615494985
   ChildIds: 14375115951560972208
   ChildIds: 8005796727674337881
   ChildIds: 18289430396051739547

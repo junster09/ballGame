@@ -7,21 +7,17 @@ Assets {
       RootId: 6231706655025601332
       Objects {
         Id: 6231706655025601332
-        Name: "Station"
+        Name: "Station 1"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 5
+            Y: 5
+            Z: 5
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 5289227880424178924
-        ChildIds: 16671832830034176019
-        ChildIds: 5962066391349791736
+        ParentId: 8517170386611375166
         ChildIds: 363671978580840677
-        ChildIds: 16245762715264295867
-        ChildIds: 13050586408042888221
+        ChildIds: 5783619576542145951
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -33,11 +29,12 @@ Assets {
         }
       }
       Objects {
-        Id: 5289227880424178924
-        Name: "Main Station Core"
+        Id: 363671978580840677
+        Name: "Radar"
         Transform {
           Location {
-            X: -100
+            X: -150
+            Z: 400
           }
           Rotation {
           }
@@ -48,6 +45,397 @@ Assets {
           }
         }
         ParentId: 6231706655025601332
+        ChildIds: 10566808301750515149
+        ChildIds: 7796107003405078225
+        ChildIds: 9055773991904107523
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 10566808301750515149
+        Name: "Sensor"
+        Transform {
+          Location {
+            X: 50
+            Y: 400
+            Z: -400
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 363671978580840677
+        ChildIds: 13049876362992627329
+        ChildIds: 6570379778653645975
+        ChildIds: 10427197212959149246
+        ChildIds: 12458303421358195274
+        ChildIds: 2726332093295606406
+        ChildIds: 15506029771803983777
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 13049876362992627329
+        Name: "Modern Weapon - Grenade Canister 03"
+        Transform {
+          Location {
+            Y: 17.3402405
+            Z: 53.1604614
+          }
+          Rotation {
+            Roll: 89.9999084
+          }
+          Scale {
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
+          }
+        }
+        ParentId: 10566808301750515149
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 11388706970016535458
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 6570379778653645975
+        Name: "Modern Weapon - Barrel 02"
+        Transform {
+          Location {
+            Y: -100
+            Z: 50
+          }
+          Rotation {
+            Yaw: 89.9999313
+          }
+          Scale {
+            X: 6.25000143
+            Y: 2
+            Z: 2
+          }
+        }
+        ParentId: 10566808301750515149
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 14795453977698190628
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 10427197212959149246
+        Name: "Modern Weapon - Grenade Canister 03"
+        Transform {
+          Location {
+            Y: -24.9524231
+            Z: 53.1604614
+          }
+          Rotation {
+            Roll: 89.9999084
+          }
+          Scale {
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
+          }
+        }
+        ParentId: 10566808301750515149
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 11388706970016535458
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 12458303421358195274
+        Name: "Modern Weapon - Grenade Handle 01"
+        Transform {
+          Location {
+            Y: -76.7435303
+            Z: 57.3364258
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.25
+            Y: 3.25
+            Z: 3.25
+          }
+        }
+        ParentId: 10566808301750515149
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 1781125356669888653
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 2726332093295606406
+        Name: "Modern Weapon - Grenade Canister 04"
+        Transform {
+          Location {
+            Y: 197.935852
+            Z: 21.7295532
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.5148828
+            Y: 2.5148828
+            Z: 2.5148828
+          }
+        }
+        ParentId: 10566808301750515149
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 502652053967139081
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 15506029771803983777
+        Name: "Modern Weapon - Grenade Canister 03"
+        Transform {
+          Location {
+            Y: 58.4476
+            Z: 53.1604614
+          }
+          Rotation {
+            Roll: 89.9999084
+          }
+          Scale {
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
+          }
+        }
+        ParentId: 10566808301750515149
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 11388706970016535458
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 7796107003405078225
+        Name: "Modern Weapon - Barrel 02"
+        Transform {
+          Location {
+            X: 50
+            Z: -100
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: -26.565033
+            Roll: -116.564575
+          }
+          Scale {
+            X: 6.25000143
+            Y: 2
+            Z: 2
+          }
+        }
+        ParentId: 363671978580840677
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 14795453977698190628
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 9055773991904107523
+        Name: "Modern Weapon - Magazine 02"
+        Transform {
+          Location {
+            X: 50
+            Z: -81.2923
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
+          }
+        }
+        ParentId: 363671978580840677
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        StaticMesh {
+          MeshAsset {
+            Id: 16723523931133185147
+          }
+          Physics {
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+        }
+      }
+      Objects {
+        Id: 5783619576542145951
+        Name: "ClientContext"
+        Transform {
+          Location {
+            X: 40
+            Y: -70
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6231706655025601332
+        ChildIds: 5289227880424178924
+        ChildIds: 16671832830034176019
+        ChildIds: 5962066391349791736
+        ChildIds: 16245762715264295867
+        ChildIds: 13050586408042888221
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 5289227880424178924
+        Name: "Main Station Core"
+        Transform {
+          Location {
+            X: -140.000031
+            Y: 69.9999924
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5783619576542145951
         ChildIds: 17690895774501626408
         ChildIds: 8517052827811053932
         Collidable_v2 {
@@ -150,7 +538,8 @@ Assets {
         Name: "Dock"
         Transform {
           Location {
-            X: -350
+            X: -390
+            Y: 70.0000229
             Z: 50
           }
           Rotation {
@@ -161,7 +550,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6231706655025601332
+        ParentId: 5783619576542145951
         ChildIds: 6452899892865769693
         ChildIds: 4186050018809801299
         Collidable_v2 {
@@ -259,8 +648,8 @@ Assets {
         Name: "Missile Pod"
         Transform {
           Location {
-            X: -100
-            Y: -350
+            X: -140.000031
+            Y: -280
             Z: 50
           }
           Rotation {
@@ -271,7 +660,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6231706655025601332
+        ParentId: 5783619576542145951
         ChildIds: 17825590513729339771
         ChildIds: 7373380842868965285
         ChildIds: 1601703528130888810
@@ -821,371 +1210,12 @@ Assets {
         }
       }
       Objects {
-        Id: 363671978580840677
-        Name: "Radar"
-        Transform {
-          Location {
-            X: -150
-            Z: 400
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6231706655025601332
-        ChildIds: 10566808301750515149
-        ChildIds: 7796107003405078225
-        ChildIds: 9055773991904107523
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 10566808301750515149
-        Name: "Sensor"
-        Transform {
-          Location {
-            X: 50
-            Y: 400
-            Z: -400
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 363671978580840677
-        ChildIds: 13049876362992627329
-        ChildIds: 6570379778653645975
-        ChildIds: 10427197212959149246
-        ChildIds: 12458303421358195274
-        ChildIds: 2726332093295606406
-        ChildIds: 15506029771803983777
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 13049876362992627329
-        Name: "Modern Weapon - Grenade Canister 03"
-        Transform {
-          Location {
-            Y: 17.3402405
-            Z: 53.1604614
-          }
-          Rotation {
-            Roll: 89.9999084
-          }
-          Scale {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-        ParentId: 10566808301750515149
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 11388706970016535458
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 6570379778653645975
-        Name: "Modern Weapon - Barrel 02"
-        Transform {
-          Location {
-            Y: -100
-            Z: 50
-          }
-          Rotation {
-            Yaw: 89.9999313
-          }
-          Scale {
-            X: 6.25000143
-            Y: 2
-            Z: 2
-          }
-        }
-        ParentId: 10566808301750515149
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 14795453977698190628
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 10427197212959149246
-        Name: "Modern Weapon - Grenade Canister 03"
-        Transform {
-          Location {
-            Y: -24.9524231
-            Z: 53.1604614
-          }
-          Rotation {
-            Roll: 89.9999084
-          }
-          Scale {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-        ParentId: 10566808301750515149
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 11388706970016535458
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 12458303421358195274
-        Name: "Modern Weapon - Grenade Handle 01"
-        Transform {
-          Location {
-            Y: -76.7435303
-            Z: 57.3364258
-          }
-          Rotation {
-          }
-          Scale {
-            X: 3.25
-            Y: 3.25
-            Z: 3.25
-          }
-        }
-        ParentId: 10566808301750515149
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 1781125356669888653
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 2726332093295606406
-        Name: "Modern Weapon - Grenade Canister 04"
-        Transform {
-          Location {
-            Y: 197.935852
-            Z: 21.7295532
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2.5148828
-            Y: 2.5148828
-            Z: 2.5148828
-          }
-        }
-        ParentId: 10566808301750515149
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 502652053967139081
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 15506029771803983777
-        Name: "Modern Weapon - Grenade Canister 03"
-        Transform {
-          Location {
-            Y: 58.4476
-            Z: 53.1604614
-          }
-          Rotation {
-            Roll: 89.9999084
-          }
-          Scale {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-        ParentId: 10566808301750515149
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 11388706970016535458
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 7796107003405078225
-        Name: "Modern Weapon - Barrel 02"
-        Transform {
-          Location {
-            X: 50
-            Z: -100
-          }
-          Rotation {
-            Pitch: 90
-            Yaw: -26.565033
-            Roll: -116.564575
-          }
-          Scale {
-            X: 6.25000143
-            Y: 2
-            Z: 2
-          }
-        }
-        ParentId: 363671978580840677
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 14795453977698190628
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
-        Id: 9055773991904107523
-        Name: "Modern Weapon - Magazine 02"
-        Transform {
-          Location {
-            X: 50
-            Z: -81.2923
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-        ParentId: 363671978580840677
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        StaticMesh {
-          MeshAsset {
-            Id: 16723523931133185147
-          }
-          Physics {
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-        }
-      }
-      Objects {
         Id: 16245762715264295867
         Name: "Connector"
         Transform {
           Location {
-            X: 550
+            X: 509.999969
+            Y: 70.0000534
             Z: 50
           }
           Rotation {
@@ -1196,7 +1226,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6231706655025601332
+        ParentId: 5783619576542145951
         ChildIds: 5373493621436633742
         ChildIds: 17772976439377842663
         ChildIds: 7039327646647882075
@@ -1435,7 +1465,8 @@ Assets {
         Name: "Life Support"
         Transform {
           Location {
-            X: 200
+            X: 160
+            Y: 69.9999924
             Z: 50
           }
           Rotation {
@@ -1446,7 +1477,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6231706655025601332
+        ParentId: 5783619576542145951
         ChildIds: 8372880928613840682
         ChildIds: 7050393946225805015
         ChildIds: 12256949388648144302
@@ -1645,6 +1676,51 @@ Assets {
       }
     }
     Assets {
+      Id: 11388706970016535458
+      Name: "Modern Weapon - Grenade Canister 03"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weapons_grenade_teeth_001"
+      }
+    }
+    Assets {
+      Id: 14795453977698190628
+      Name: "Modern Weapon - Barrel 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_barrel_002"
+      }
+    }
+    Assets {
+      Id: 1781125356669888653
+      Name: "Modern Weapon - Grenade Handle 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weapons_grenade_handle_001"
+      }
+    }
+    Assets {
+      Id: 502652053967139081
+      Name: "Modern Weapon - Grenade Canister 04"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weapons_grenade_sphere_001"
+      }
+    }
+    Assets {
+      Id: 16723523931133185147
+      Name: "Modern Weapon - Magazine 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_modern_mag_002"
+      }
+    }
+    Assets {
       Id: 88181544067651908
       Name: "Pipe"
       PlatformAssetType: 1
@@ -1759,51 +1835,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_weap_modern_stock_003"
-      }
-    }
-    Assets {
-      Id: 11388706970016535458
-      Name: "Modern Weapon - Grenade Canister 03"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weapons_grenade_teeth_001"
-      }
-    }
-    Assets {
-      Id: 14795453977698190628
-      Name: "Modern Weapon - Barrel 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_barrel_002"
-      }
-    }
-    Assets {
-      Id: 1781125356669888653
-      Name: "Modern Weapon - Grenade Handle 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weapons_grenade_handle_001"
-      }
-    }
-    Assets {
-      Id: 502652053967139081
-      Name: "Modern Weapon - Grenade Canister 04"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weapons_grenade_sphere_001"
-      }
-    }
-    Assets {
-      Id: 16723523931133185147
-      Name: "Modern Weapon - Magazine 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_modern_mag_002"
       }
     }
     Assets {

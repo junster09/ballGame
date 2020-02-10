@@ -25,6 +25,7 @@ Assets {
             Int: 5
           }
         }
+        Lifespan: 20
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

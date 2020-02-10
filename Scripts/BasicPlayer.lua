@@ -25,7 +25,7 @@ end
 function OnEquipped(_, player)
 
     player:SetVisibility(false)
-    UI.SetCursorVisible(true)
+   
 
     if player == EQUIPMENT.owner then
         thisPlayer = player
