@@ -17,6 +17,8 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 12215052236414668
+        ChildIds: 7492417660774894172
+        ChildIds: 4320042081899741586
         ChildIds: 4596711183647032747
         ChildIds: 368532869600633963
         ChildIds: 5708946409792577930
@@ -59,9 +61,9 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:gun"
+            Name: "cs:DeathScript"
             ObjectReference {
-              SelfId: 4803838039322673158
+              SubObjectId: 7492417660774894172
             }
           }
           Overrides {
@@ -117,6 +119,223 @@ Assets {
         Script {
           ScriptAsset {
             Id: 13543299419363558957
+          }
+        }
+      }
+      Objects {
+        Id: 7492417660774894172
+        Name: "PlayerDeathScript"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12648030414394458403
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:GenerationRange"
+            Vector2 {
+              X: -400
+              Y: 400
+            }
+          }
+          Overrides {
+            Name: "cs:Tiny"
+            AssetReference {
+              Id: 15609342805271462384
+            }
+          }
+          Overrides {
+            Name: "cs:Small1"
+            AssetReference {
+              Id: 9186668609693925129
+            }
+          }
+          Overrides {
+            Name: "cs:Small2"
+            AssetReference {
+              Id: 4098390651918679777
+            }
+          }
+          Overrides {
+            Name: "cs:Med1"
+            AssetReference {
+              Id: 5677457080215947143
+            }
+          }
+          Overrides {
+            Name: "cs:Med2"
+            AssetReference {
+              Id: 2073741577291014878
+            }
+          }
+          Overrides {
+            Name: "cs:Large1"
+            AssetReference {
+              Id: 12496996065304753147
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10462694086162452054
+          }
+        }
+      }
+      Objects {
+        Id: 4320042081899741586
+        Name: "Basic Shot Type"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12648030414394458403
+        ChildIds: 7810156101714651655
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Type"
+            String: "GUN"
+          }
+          Overrides {
+            Name: "cs:MaxHeat"
+            Int: 100
+          }
+          Overrides {
+            Name: "cs:Damage"
+            Float: 10
+          }
+          Overrides {
+            Name: "cs:Bullet"
+            AssetReference {
+              Id: 5388584908554815735
+            }
+          }
+          Overrides {
+            Name: "cs:BulletSpeed"
+            Float: 5000
+          }
+          Overrides {
+            Name: "cs:BulletDrag"
+            Float: 0
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Ability {
+          IsEnabled: true
+          CastPhaseSettings {
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          ExecutePhaseSettings {
+            Duration: 240
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          RecoveryPhaseSettings {
+            Duration: 0.5
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          CooldownPhaseSettings {
+            Duration: 4
+            CanMove: true
+            CanJump: true
+            CanRotate: true
+            PreventOtherAbilities: true
+            IsTargetDataUpdated: true
+            Facing_V2 {
+              Value: "mc:eabilitysetfacing:none"
+            }
+          }
+          KeyBinding_v2 {
+            Value: "mc:egameaction:primaryaction"
+          }
+        }
+      }
+      Objects {
+        Id: 7810156101714651655
+        Name: "BasicGunScript"
+        Transform {
+          Location {
+            X: 204.72
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4320042081899741586
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Ability"
+            ObjectReference {
+              SubObjectId: 4320042081899741586
+            }
+          }
+          Overrides {
+            Name: "cs:Equipment"
+            ObjectReference {
+              SubObjectId: 12648030414394458403
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 8051234770579603738
           }
         }
       }
@@ -214,6 +433,12 @@ Assets {
             Name: "cs:ability"
             ObjectReference {
               SubObjectId: 4596711183647032747
+            }
+          }
+          Overrides {
+            Name: "cs:Equipment"
+            ObjectReference {
+              SubObjectId: 12648030414394458403
             }
           }
         }

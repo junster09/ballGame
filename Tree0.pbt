@@ -15230,7 +15230,6 @@ Objects {
   ChildIds: 4204477195591231598
   ChildIds: 17577415863212442571
   ChildIds: 6284631306030046310
-  ChildIds: 8978633346794262578
   ChildIds: 18352929695334057337
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -15274,65 +15273,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 3945528563755101927
-    }
-  }
-}
-Objects {
-  Id: 8978633346794262578
-  Name: "Static Player Equipment"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10568894098106648577
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16657464430720987128
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Static Player Equipment"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 114.106705
-            Y: 2368.68726
-            Z: -305
-          }
-        }
-        Overrides {
-          Name: "cs:EquipmentTemplate"
-          AssetReference {
-            Id: 9325834833187094765
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17452126600970129813
     }
   }
 }

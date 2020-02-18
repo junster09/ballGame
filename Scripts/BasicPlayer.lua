@@ -1,4 +1,6 @@
 local EQUIPMENT = script:GetCustomProperty("thisEQ"):WaitForObject()
+local DEATH_SCRIPT = script:GetCustomProperty("DeathScript"):WaitForObject()
+
 local MAX_HEALTH = script:GetCustomProperty("MaxHealth")
 local MOVE_SPEED = script:GetCustomProperty("MoveSpeed")
 local DEATH_EFFECTS = script:GetCustomProperty("deathEffects")
@@ -73,6 +75,9 @@ end
 function OnPlayerDeath(player,_)
 
     local e = World.SpawnAsset(DEATH_EFFECTS,{parent = script.parent})
+    DEATH_SCRIPT.context.OnDeath(player)
+
+
     Events.BroadcastToPlayer(player,"died")
 
 

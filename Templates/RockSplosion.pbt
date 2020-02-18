@@ -7,7 +7,7 @@ Assets {
       RootId: 3579584054997939241
       Objects {
         Id: 3579584054997939241
-        Name: "Basic Explosion VFX"
+        Name: "RockSplosion"
         Transform {
           Scale {
             X: 1
@@ -34,6 +34,7 @@ Assets {
             Bool: false
           }
         }
+        Lifespan: 5
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
