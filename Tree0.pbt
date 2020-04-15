@@ -17,6 +17,10 @@ Objects {
   ChildIds: 10568894098106648577
   ChildIds: 7441004493294840497
   ChildIds: 17993845594966694773
+  ChildIds: 15161469668555219162
+  ChildIds: 13165914430053743984
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
@@ -24,6 +28,2094 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 13165914430053743984
+  Name: "Turret Pickup"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1669718553800524830
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Turret Pickup"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5302.29346
+            Y: -4307.63281
+            Z: -5990
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3374931835214352359
+    }
+  }
+}
+Objects {
+  Id: 15161469668555219162
+  Name: "Player Starter Equipment"
+  Transform {
+    Location {
+      X: -5206.33887
+      Y: -4587.38721
+      Z: -5990
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 9062910914137734965
+  ChildIds: 1879376368406342565
+  ChildIds: 5052290639259623531
+  ChildIds: 4766009641154815058
+  ChildIds: 8715523295868323218
+  ChildIds: 3662772783813476467
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Equipment {
+    SocketName: "root"
+    PickupTrigger {
+      SelfId: 8646710346560253483
+    }
+  }
+  InstanceHistory {
+    SelfId: 15161469668555219162
+    SubobjectId: 12648030414394458403
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 3662772783813476467
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15161469668555219162
+  ChildIds: 8523023752462396833
+  ChildIds: 7600539187877657713
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 3662772783813476467
+    SubobjectId: 5708946409792577930
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 7600539187877657713
+  Name: "ship"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: -2.00000024
+      Y: 2.00000024
+      Z: -2.00000024
+    }
+  }
+  ParentId: 3662772783813476467
+  ChildIds: 12494319925135674326
+  ChildIds: 9943351666453595916
+  ChildIds: 8819268746706759050
+  ChildIds: 15744847828850384903
+  ChildIds: 31523948667749565
+  ChildIds: 10005830678594057143
+  ChildIds: 15606989694258815820
+  ChildIds: 8240385460609418404
+  ChildIds: 11103549299723498811
+  ChildIds: 3590949917400149745
+  ChildIds: 612856998849043661
+  ChildIds: 15502474531197053921
+  ChildIds: 5072606192289468888
+  ChildIds: 8337559876357829769
+  ChildIds: 12635949725006250771
+  ChildIds: 12258554016703590951
+  ChildIds: 13904918662531688754
+  ChildIds: 1417674997466523229
+  ChildIds: 12613550243867178308
+  ChildIds: 3291905350834699870
+  ChildIds: 7097914500582320977
+  ChildIds: 6636718131763137968
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 7600539187877657713
+    SubobjectId: 1482813393296711048
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 6636718131763137968
+  Name: "Trash Can - Urban 01"
+  Transform {
+    Location {
+      X: 9.99996948
+      Y: 1.52587891e-05
+      Z: 0.000122070298
+    }
+    Rotation {
+      Pitch: -69.9996948
+      Yaw: -89.9999542
+      Roll: -90.000061
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.401041657
+        G: 0.033736378
+        B: 0.0292426292
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 7221186764710479253
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 6636718131763137968
+    SubobjectId: 2446812535918472265
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 7097914500582320977
+  Name: "Computer Monitor 01"
+  Transform {
+    Location {
+      X: -37.4999847
+      Y: 1.52587891e-05
+      Z: 0.000119209275
+    }
+    Rotation {
+      Pitch: -0.000136603776
+      Yaw: 89.999939
+      Roll: 179.999985
+    }
+    Scale {
+      X: 0.0624999925
+      Y: 0.0624999925
+      Z: 0.0624999925
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 15999466893344697305
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 7097914500582320977
+    SubobjectId: 2264839275206658728
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 3291905350834699870
+  Name: "Modern Weapon - Scope 02"
+  Transform {
+    Location {
+      X: 9.99996948
+      Y: 49.9999847
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 14099504197164969023
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 3291905350834699870
+    SubobjectId: 5783108499797172135
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 12613550243867178308
+  Name: "Wedge - Convex"
+  Transform {
+    Location {
+      X: -2.50003052
+      Y: -18.7499542
+      Z: 12.5001621
+    }
+    Rotation {
+      Pitch: -4.09811328e-05
+      Yaw: 179.999954
+      Roll: 89.9998398
+    }
+    Scale {
+      X: 0.49999994
+      Y: 0.18749997
+      Z: 0.18749997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5129490105765850203
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 16359834230979559235
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 12613550243867178308
+    SubobjectId: 15195952106830353597
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 1417674997466523229
+  Name: "SciFi Trim 01"
+  Transform {
+    Location {
+      X: 24.9999695
+      Y: 24.9999847
+      Z: 5.96046375e-05
+    }
+    Rotation {
+      Pitch: 0.000136603776
+      Yaw: -89.9998474
+      Roll: 179.999985
+    }
+    Scale {
+      X: 0.124999985
+      Y: 0.124999985
+      Z: 0.124999985
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.401041657
+        G: 0.033736378
+        B: 0.0292426292
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 12648865134488273468
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 1417674997466523229
+    SubobjectId: 7944946871375988644
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 13904918662531688754
+  Name: "Wedge - Convex"
+  Transform {
+    Location {
+      X: -2.50003052
+      Y: 18.7500153
+      Z: 12.5000725
+    }
+    Rotation {
+      Pitch: -4.09811328e-05
+      Yaw: -7.32799793e-11
+      Roll: 90.0000916
+    }
+    Scale {
+      X: 0.49999994
+      Y: 0.18749997
+      Z: 0.18749997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5129490105765850203
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 16359834230979559235
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 13904918662531688754
+    SubobjectId: 13625281312085559499
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 12258554016703590951
+  Name: "SciFi Trim 01"
+  Transform {
+    Location {
+      X: 24.9999695
+      Y: -24.9999847
+      Z: 0.00017881392
+    }
+    Rotation {
+      Pitch: 0.000136603776
+      Yaw: -89.9998474
+      Roll: 179.999985
+    }
+    Scale {
+      X: 0.124999985
+      Y: 0.124999985
+      Z: 0.124999985
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.401041657
+        G: 0.033736378
+        B: 0.0292426292
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 12648865134488273468
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 12258554016703590951
+    SubobjectId: 15560404133936124894
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 12635949725006250771
+  Name: "Modern Weapon - Scope 02"
+  Transform {
+    Location {
+      X: 9.99996948
+      Y: -49.9999924
+      Z: 0.00023841855
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 14099504197164969023
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 12635949725006250771
+    SubobjectId: 15183149060115079914
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 8337559876357829769
+  Name: "Lense - Half"
+  Transform {
+    Location {
+      X: -27.5000305
+      Y: 4.57763672e-05
+      Z: 6.25011826
+    }
+    Rotation {
+      Pitch: 0.000184415097
+      Yaw: 179.999954
+      Roll: -9.56225776e-05
+    }
+    Scale {
+      X: 0.18749997
+      Y: 0.18749997
+      Z: 0.18749997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 851049305300989203
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 15755153163134021298
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 8337559876357829769
+    SubobjectId: 1034278133305300336
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 5072606192289468888
+  Name: "Ring - Thick"
+  Transform {
+    Location {
+      X: 41.2499695
+      Y: 1.52587891e-05
+      Z: 0.000119209275
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -54.7356339
+      Roll: 125.264496
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 1966052166454953742
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 5072606192289468888
+    SubobjectId: 4290536844994162721
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 15502474531197053921
+  Name: "Trash Can - Urban 01"
+  Transform {
+    Location {
+      X: 9.99996948
+      Y: 1.52587891e-05
+      Z: 0.000119209275
+    }
+    Rotation {
+      Pitch: 70.0001144
+      Yaw: -89.9999771
+      Roll: 90.0002365
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.401041657
+        G: 0.033736378
+        B: 0.0292426292
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 7221186764710479253
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 15502474531197053921
+    SubobjectId: 12307584069315332632
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 612856998849043661
+  Name: "Scifi Panel 1x4m Corner-cut"
+  Transform {
+    Location {
+      X: -2.50003052
+      Y: 24.9999847
+      Z: 5.96046375e-05
+    }
+    Rotation {
+      Pitch: -0.000136603776
+      Yaw: 89.9999619
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 8173153865547468637
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 612856998849043661
+    SubobjectId: 8462200763521973556
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 3590949917400149745
+  Name: "Prism - 8-Sided Half"
+  Transform {
+    Location {
+      X: -2.50003052
+      Y: 7.62939453e-05
+      Z: 18.7501163
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -54.7355576
+      Roll: 125.264587
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.31249997
+      Z: 0.874999881
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5129490105765850203
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 12382104768089443116
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 3590949917400149745
+    SubobjectId: 5493007395101396744
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 11103549299723498811
+  Name: "Scifi Panel 1x4m Corner-cut"
+  Transform {
+    Location {
+      X: -2.50003052
+      Y: -24.9999847
+      Z: 0.00017881392
+    }
+    Rotation {
+      Pitch: 0.000355169817
+      Yaw: -89.9998169
+      Roll: -0.000232225895
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 8173153865547468637
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 11103549299723498811
+    SubobjectId: 16715448330238825666
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 8240385460609418404
+  Name: "Scifi Panel 2x3m Triangle"
+  Transform {
+    Location {
+      X: 22.4999695
+      Y: -37.4999847
+      Z: 0.000208616228
+    }
+    Rotation {
+      Pitch: -0.000136603776
+      Yaw: 89.9998703
+      Roll: 179.999985
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12317010142665720742
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 5151873584740583629
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 8240385460609418404
+    SubobjectId: 1131865965427778909
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 15606989694258815820
+  Name: "Arch"
+  Transform {
+    Location {
+      X: 22.4999695
+      Y: 1.52587891e-05
+      Z: 0.000119209275
+    }
+    Rotation {
+      Pitch: -0.000102452832
+      Yaw: 89.999855
+      Roll: 89.9999237
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 6283807781678272407
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 15606989694258815820
+    SubobjectId: 11923740176229909173
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 10005830678594057143
+  Name: "Scifi Panel 1x3m Angled Right"
+  Transform {
+    Location {
+      X: -65
+      Y: 24.9999847
+      Z: 5.96046375e-05
+    }
+    Rotation {
+      Pitch: -0.000136603776
+      Yaw: 89.9999619
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17480159545540459219
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 15239571002661349145
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 10005830678594057143
+    SubobjectId: 17813233025145344590
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 31523948667749565
+  Name: "Arch"
+  Transform {
+    Location {
+      X: -8.75003052
+      Y: 1.52587891e-05
+      Z: 0.000119209275
+    }
+    Rotation {
+      Pitch: -0.000122943398
+      Yaw: 89.999855
+      Roll: 89.9999161
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.31249997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 6283807781678272407
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 31523948667749565
+    SubobjectId: 9043639469881959748
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 15744847828850384903
+  Name: "Ring - Thick"
+  Transform {
+    Location {
+      X: -27.5000305
+      Y: 1.52587891e-05
+      Z: 0.000119209275
+    }
+    Rotation {
+      Roll: -179.999863
+    }
+    Scale {
+      X: 0.37499994
+      Y: 0.399999946
+      Z: 0.37499994
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 1966052166454953742
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 15744847828850384903
+    SubobjectId: 12064694104197644798
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 8819268746706759050
+  Name: "Cone - Truncated Hollow Thin"
+  Transform {
+    Location {
+      X: 47.4999695
+      Y: 1.52587891e-05
+      Z: 0.000119209275
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: -0.000218566041
+      Roll: -179.999634
+    }
+    Scale {
+      X: 0.37499994
+      Y: 0.37499994
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11241976105672078426
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 11304217903514823315
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 8819268746706759050
+    SubobjectId: 543491626223225971
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 9943351666453595916
+  Name: "Scifi Panel 1x3m Angled Left"
+  Transform {
+    Location {
+      X: -65
+      Y: -24.9999847
+      Z: 0.00017881392
+    }
+    Rotation {
+      Pitch: -0.000136603776
+      Yaw: 89.9999619
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17480159545540459219
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 6668433336893985493
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 9943351666453595916
+    SubobjectId: 17587516811229210357
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 12494319925135674326
+  Name: "Scifi Panel 2x3m Triangle"
+  Transform {
+    Location {
+      X: 22.4999695
+      Y: 37.4999847
+      Z: 2.98023187e-05
+    }
+    Rotation {
+      Yaw: -89.9996796
+      Roll: -0.000102452177
+    }
+    Scale {
+      X: 0.24999997
+      Y: 0.24999997
+      Z: 0.24999997
+    }
+  }
+  ParentId: 7600539187877657713
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12317010142665720742
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 5151873584740583629
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 12494319925135674326
+    SubobjectId: 15026881611956906543
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 8523023752462396833
+  Name: "Trail"
+  Transform {
+    Location {
+      Y: 3.05175781e-05
+      Z: -0.000244140625
+    }
+    Rotation {
+      Pitch: -69.9996948
+      Yaw: 89.9999542
+      Roll: 90.000061
+    }
+    Scale {
+      X: -0.5
+      Y: 0.5
+      Z: -0.5
+    }
+  }
+  ParentId: 3662772783813476467
+  ChildIds: 12487898093248851806
+  ChildIds: 9556845810450853838
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 8523023752462396833
+    SubobjectId: 840295172326198360
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 9556845810450853838
+  Name: "Rocket Trail VFX"
+  Transform {
+    Location {
+      X: 0.072479248
+      Y: 0.197181702
+      Z: -119.996094
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 153.434952
+      Roll: 6.56471252
+    }
+    Scale {
+      X: -2
+      Y: 2
+      Z: -2
+    }
+  }
+  ParentId: 8523023752462396833
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Emissive Boost"
+      Float: 50
+    }
+    Overrides {
+      Name: "bp:Smoke Color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 3.5
+    }
+    Overrides {
+      Name: "bp:Particle Scale Multiplier"
+      Float: 1.75
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 5
+        G: 1.33333325
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Life"
+      Float: 1.25
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 18295221919314072366
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+      TeamSettings {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9556845810450853838
+    SubobjectId: 17964353493176946231
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 12487898093248851806
+  Name: "RocketTrailVFXScript"
+  Transform {
+    Location {
+      X: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: -2
+      Y: 2
+      Z: -2
+    }
+  }
+  ParentId: 8523023752462396833
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Trail"
+      ObjectReference {
+        SelfId: 9556845810450853838
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9569140516012364013
+    }
+  }
+  InstanceHistory {
+    SelfId: 12487898093248851806
+    SubobjectId: 15033971946899787431
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 8715523295868323218
+  Name: "Ship Head"
+  Transform {
+    Location {
+      X: 55.0000687
+      Y: 3.05175818e-05
+      Z: -0.000238418579
+    }
+    Rotation {
+      Roll: 179.999863
+    }
+    Scale {
+      X: -0.5
+      Y: 0.5
+      Z: -0.5
+    }
+  }
+  ParentId: 15161469668555219162
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4620615145667919762
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.00784313772
+        G: 0.941176534
+        B: 1
+        A: 1
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  StaticMesh {
+    MeshAsset {
+      Id: 4734780502947683559
+    }
+    Physics {
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+  }
+  InstanceHistory {
+    SelfId: 8715523295868323218
+    SubobjectId: 368532869600633963
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 4766009641154815058
+  Name: "Self-Destruct"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15161469668555219162
+  ChildIds: 14960311029662861100
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Ability {
+    IsEnabled: true
+    CastPhaseSettings {
+      Duration: 0.15
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    ExecutePhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    RecoveryPhaseSettings {
+      Duration: 0.1
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    CooldownPhaseSettings {
+      Duration: 3
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    Animation: "1hand_melee_slash_left"
+    KeyBinding_v2 {
+      Value: "mc:egameaction:extraaction_33"
+    }
+  }
+  InstanceHistory {
+    SelfId: 4766009641154815058
+    SubobjectId: 4596711183647032747
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 14960311029662861100
+  Name: "KillYourselfScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4766009641154815058
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ability"
+      ObjectReference {
+        SelfId: 4766009641154815058
+      }
+    }
+    Overrides {
+      Name: "cs:Equipment"
+      ObjectReference {
+        SelfId: 15161469668555219162
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13661957573859182631
+    }
+  }
+  InstanceHistory {
+    SelfId: 14960311029662861100
+    SubobjectId: 12858686703383062229
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 5052290639259623531
+  Name: "Basic Shot Type"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15161469668555219162
+  ChildIds: 1264868744011402238
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Type"
+      String: "GUN"
+    }
+    Overrides {
+      Name: "cs:MaxHeat"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:Damage"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:Bullet"
+      AssetReference {
+        Id: 5388584908554815735
+      }
+    }
+    Overrides {
+      Name: "cs:BulletSpeed"
+      Float: 5000
+    }
+    Overrides {
+      Name: "cs:BulletDrag"
+      Float: 0
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Ability {
+    IsEnabled: true
+    CastPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    ExecutePhaseSettings {
+      Duration: 240
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    RecoveryPhaseSettings {
+      Duration: 0.5
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    CooldownPhaseSettings {
+      Duration: 4
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    KeyBinding_v2 {
+      Value: "mc:egameaction:primaryaction"
+    }
+  }
+  InstanceHistory {
+    SelfId: 5052290639259623531
+    SubobjectId: 4320042081899741586
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 1264868744011402238
+  Name: "BasicGunScript"
+  Transform {
+    Location {
+      X: 204.72
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5052290639259623531
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 5052290639259623531
+      }
+    }
+    Overrides {
+      Name: "cs:Equipment"
+      ObjectReference {
+        SelfId: 15161469668555219162
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8051234770579603738
+    }
+  }
+  InstanceHistory {
+    SelfId: 1264868744011402238
+    SubobjectId: 7810156101714651655
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 1879376368406342565
+  Name: "PlayerDeathScript"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15161469668555219162
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:GenerationRange"
+      Vector2 {
+        X: -400
+        Y: 400
+      }
+    }
+    Overrides {
+      Name: "cs:Tiny"
+      AssetReference {
+        Id: 15609342805271462384
+      }
+    }
+    Overrides {
+      Name: "cs:Small1"
+      AssetReference {
+        Id: 9186668609693925129
+      }
+    }
+    Overrides {
+      Name: "cs:Small2"
+      AssetReference {
+        Id: 4098390651918679777
+      }
+    }
+    Overrides {
+      Name: "cs:Med1"
+      AssetReference {
+        Id: 5677457080215947143
+      }
+    }
+    Overrides {
+      Name: "cs:Med2"
+      AssetReference {
+        Id: 2073741577291014878
+      }
+    }
+    Overrides {
+      Name: "cs:Large1"
+      AssetReference {
+        Id: 12496996065304753147
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10462694086162452054
+    }
+  }
+  InstanceHistory {
+    SelfId: 1879376368406342565
+    SubobjectId: 7492417660774894172
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
+  }
+}
+Objects {
+  Id: 9062910914137734965
+  Name: "BasicPlayer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15161469668555219162
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:thisEQ"
+      ObjectReference {
+        SelfId: 15161469668555219162
+      }
+    }
+    Overrides {
+      Name: "cs:DeathScript"
+      ObjectReference {
+        SelfId: 1879376368406342565
+      }
+    }
+    Overrides {
+      Name: "cs:MaxHealth"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:MoveSpeed"
+      Int: 2000
+    }
+    Overrides {
+      Name: "cs:deathEffects"
+      AssetReference {
+        Id: 16913152809056674009
+      }
+    }
+    Overrides {
+      Name: "cs:damageFX"
+      AssetReference {
+        Id: 7979897926698893397
+      }
+    }
+    Overrides {
+      Name: "cs:PlayerHead"
+      ObjectReference {
+        SelfId: 8715523295868323218
+      }
+    }
+    Overrides {
+      Name: "cs:CriticalColor"
+      Color {
+        R: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:NormalColor"
+      Color {
+        R: 0.00784313772
+        G: 0.941176534
+        B: 1
+        A: 1
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13543299419363558957
+    }
+  }
+  InstanceHistory {
+    SelfId: 9062910914137734965
+    SubobjectId: 12215052236414668
+    InstanceId: 18250382264153049331
+    TemplateId: 3769284747068250008
   }
 }
 Objects {
@@ -46,6 +2138,8 @@ Objects {
   ChildIds: 10304941177781178684
   ChildIds: 12293961432536118492
   ChildIds: 5102157248517572244
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -90,6 +2184,8 @@ Objects {
   ChildIds: 212523220807972563
   ChildIds: 15506810283454430279
   ChildIds: 1813756285684710323
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -110,6 +2206,8 @@ Objects {
     }
   }
   ParentId: 5102157248517572244
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -170,6 +2268,8 @@ Objects {
     }
   }
   ParentId: 5102157248517572244
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -201,6 +2301,8 @@ Objects {
     }
   }
   ParentId: 5102157248517572244
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -254,6 +2356,8 @@ Objects {
     }
   }
   ParentId: 5102157248517572244
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -307,6 +2411,8 @@ Objects {
     }
   }
   ParentId: 5102157248517572244
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -368,6 +2474,8 @@ Objects {
   }
   ParentId: 5102157248517572244
   ChildIds: 6044186314645758273
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -448,6 +2556,8 @@ Objects {
   }
   ParentId: 5102157248517572244
   ChildIds: 10048694060255195047
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -524,6 +2634,8 @@ Objects {
     }
   }
   ParentId: 5102157248517572244
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -556,6 +2668,8 @@ Objects {
   ChildIds: 13551641546322277000
   ChildIds: 7155168770677928712
   ChildIds: 10505154200474359396
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -926,6 +3040,8 @@ Objects {
   ChildIds: 15062848859653698603
   ChildIds: 1431245766269421555
   ChildIds: 14834421386178453813
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -956,6 +3072,8 @@ Objects {
   ParentId: 12293961432536118492
   ChildIds: 14263089082920857619
   ChildIds: 17507557341359842700
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -983,6 +3101,8 @@ Objects {
     }
   }
   ParentId: 14834421386178453813
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1014,6 +3134,8 @@ Objects {
   ParentId: 14834421386178453813
   ChildIds: 9492263919108764406
   ChildIds: 11358466900361027230
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1046,6 +3168,8 @@ Objects {
   ChildIds: 7057133153408830856
   ChildIds: 103777001408470555
   ChildIds: 15492729159654798880
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1077,6 +3201,8 @@ Objects {
   ChildIds: 13826924420426858431
   ChildIds: 1603803532454851971
   ChildIds: 2119775437228379743
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1293,6 +3419,8 @@ Objects {
   ChildIds: 1016984886890129890
   ChildIds: 7316449800272267560
   ChildIds: 1757900195966556548
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1320,6 +3448,8 @@ Objects {
     }
   }
   ParentId: 103777001408470555
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1355,6 +3485,8 @@ Objects {
     }
   }
   ParentId: 103777001408470555
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1391,6 +3523,8 @@ Objects {
     }
   }
   ParentId: 103777001408470555
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1428,6 +3562,8 @@ Objects {
     }
   }
   ParentId: 103777001408470555
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1465,6 +3601,8 @@ Objects {
     }
   }
   ParentId: 103777001408470555
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1501,6 +3639,8 @@ Objects {
     }
   }
   ParentId: 103777001408470555
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1543,6 +3683,8 @@ Objects {
   ChildIds: 13964910350298214003
   ChildIds: 107656404570224119
   ChildIds: 10082777539779900587
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1572,6 +3714,8 @@ Objects {
     }
   }
   ParentId: 7057133153408830856
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1611,6 +3755,8 @@ Objects {
     }
   }
   ParentId: 7057133153408830856
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1694,6 +3840,8 @@ Objects {
   ChildIds: 16763551326099445715
   ChildIds: 7005840951602458663
   ChildIds: 13427017797279835590
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1724,6 +3872,8 @@ Objects {
   ChildIds: 5126921081162337191
   ChildIds: 7531656905499137950
   ChildIds: 7452874038985666018
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2106,6 +4256,8 @@ Objects {
   ParentId: 11358466900361027230
   ChildIds: 3080693225861070562
   ChildIds: 4457419019509994278
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2134,6 +4286,8 @@ Objects {
     }
   }
   ParentId: 8811260666065106961
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2215,6 +4369,8 @@ Objects {
   ParentId: 11358466900361027230
   ChildIds: 8124815654715331538
   ChildIds: 13612107064573818651
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2330,6 +4486,8 @@ Objects {
   ChildIds: 5676962485785742226
   ChildIds: 1266368879677391482
   ChildIds: 9200167249897449914
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2358,6 +4516,8 @@ Objects {
     }
   }
   ParentId: 9492263919108764406
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2397,6 +4557,8 @@ Objects {
     }
   }
   ParentId: 9492263919108764406
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2440,6 +4602,8 @@ Objects {
   ChildIds: 7699207240591999642
   ChildIds: 8714321038021253174
   ChildIds: 8944424031634250966
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2468,6 +4632,8 @@ Objects {
     }
   }
   ParentId: 5676962485785742226
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2504,6 +4670,8 @@ Objects {
     }
   }
   ParentId: 5676962485785742226
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2540,6 +4708,8 @@ Objects {
     }
   }
   ParentId: 5676962485785742226
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2577,6 +4747,8 @@ Objects {
     }
   }
   ParentId: 5676962485785742226
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2614,6 +4786,8 @@ Objects {
     }
   }
   ParentId: 5676962485785742226
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2651,6 +4825,8 @@ Objects {
     }
   }
   ParentId: 5676962485785742226
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2690,6 +4866,8 @@ Objects {
   ParentId: 12293961432536118492
   ChildIds: 423927745093521349
   ChildIds: 10240381622427046328
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2717,6 +4895,8 @@ Objects {
     }
   }
   ParentId: 1431245766269421555
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2748,6 +4928,8 @@ Objects {
   ParentId: 1431245766269421555
   ChildIds: 3517801871028744241
   ChildIds: 9043356377774565569
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2780,6 +4962,8 @@ Objects {
   ChildIds: 4313662936689785209
   ChildIds: 15690191850864960017
   ChildIds: 4822983000424299636
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2811,6 +4995,8 @@ Objects {
   ChildIds: 6596933005890484402
   ChildIds: 16231440678542693696
   ChildIds: 7865644226414290552
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3027,6 +5213,8 @@ Objects {
   ChildIds: 10768277006676523618
   ChildIds: 3793118608949892939
   ChildIds: 9318424084795241876
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3054,6 +5242,8 @@ Objects {
     }
   }
   ParentId: 15690191850864960017
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3089,6 +5279,8 @@ Objects {
     }
   }
   ParentId: 15690191850864960017
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3125,6 +5317,8 @@ Objects {
     }
   }
   ParentId: 15690191850864960017
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3162,6 +5356,8 @@ Objects {
     }
   }
   ParentId: 15690191850864960017
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3199,6 +5395,8 @@ Objects {
     }
   }
   ParentId: 15690191850864960017
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3235,6 +5433,8 @@ Objects {
     }
   }
   ParentId: 15690191850864960017
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3277,6 +5477,8 @@ Objects {
   ChildIds: 62315091663192585
   ChildIds: 1656568013380827050
   ChildIds: 384471254571791264
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3306,6 +5508,8 @@ Objects {
     }
   }
   ParentId: 4313662936689785209
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3345,6 +5549,8 @@ Objects {
     }
   }
   ParentId: 4313662936689785209
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3428,6 +5634,8 @@ Objects {
   ChildIds: 293825319472182696
   ChildIds: 8435346057987796410
   ChildIds: 10372770657578324666
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3458,6 +5666,8 @@ Objects {
   ChildIds: 377840381730818693
   ChildIds: 2803465426509320431
   ChildIds: 4349386039205184171
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3840,6 +6050,8 @@ Objects {
   ParentId: 9043356377774565569
   ChildIds: 17227586906439758862
   ChildIds: 702532845934577490
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3868,6 +6080,8 @@ Objects {
     }
   }
   ParentId: 8547687009579179916
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3949,6 +6163,8 @@ Objects {
   ParentId: 9043356377774565569
   ChildIds: 10336041657327225006
   ChildIds: 11367089029245327855
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4064,6 +6280,8 @@ Objects {
   ChildIds: 1014984517466084082
   ChildIds: 16562426177062626502
   ChildIds: 11897207474867000530
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4092,6 +6310,8 @@ Objects {
     }
   }
   ParentId: 3517801871028744241
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4131,6 +6351,8 @@ Objects {
     }
   }
   ParentId: 3517801871028744241
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4174,6 +6396,8 @@ Objects {
   ChildIds: 15650398105655483184
   ChildIds: 7771477832575500809
   ChildIds: 8604533370089812624
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4202,6 +6426,8 @@ Objects {
     }
   }
   ParentId: 1014984517466084082
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4238,6 +6464,8 @@ Objects {
     }
   }
   ParentId: 1014984517466084082
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4274,6 +6502,8 @@ Objects {
     }
   }
   ParentId: 1014984517466084082
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4311,6 +6541,8 @@ Objects {
     }
   }
   ParentId: 1014984517466084082
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4348,6 +6580,8 @@ Objects {
     }
   }
   ParentId: 1014984517466084082
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4385,6 +6619,8 @@ Objects {
     }
   }
   ParentId: 1014984517466084082
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4424,6 +6660,8 @@ Objects {
   ParentId: 12293961432536118492
   ChildIds: 11045923815534866341
   ChildIds: 7597891807364627874
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4451,6 +6689,8 @@ Objects {
     }
   }
   ParentId: 15062848859653698603
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4482,6 +6722,8 @@ Objects {
   ParentId: 15062848859653698603
   ChildIds: 8253776181968309484
   ChildIds: 2818998430798160164
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4514,6 +6756,8 @@ Objects {
   ChildIds: 17565392600652616388
   ChildIds: 9388741278422503428
   ChildIds: 11979188981083821601
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4545,6 +6789,8 @@ Objects {
   ChildIds: 11693976453298563416
   ChildIds: 11344464492899423496
   ChildIds: 8888493747726274978
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4761,6 +7007,8 @@ Objects {
   ChildIds: 13595833765389180511
   ChildIds: 3944916007993585003
   ChildIds: 13064931806272419843
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4788,6 +7036,8 @@ Objects {
     }
   }
   ParentId: 9388741278422503428
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4823,6 +7073,8 @@ Objects {
     }
   }
   ParentId: 9388741278422503428
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4859,6 +7111,8 @@ Objects {
     }
   }
   ParentId: 9388741278422503428
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4896,6 +7150,8 @@ Objects {
     }
   }
   ParentId: 9388741278422503428
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4933,6 +7189,8 @@ Objects {
     }
   }
   ParentId: 9388741278422503428
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4969,6 +7227,8 @@ Objects {
     }
   }
   ParentId: 9388741278422503428
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5011,6 +7271,8 @@ Objects {
   ChildIds: 10366930076667971104
   ChildIds: 3755169368048779509
   ChildIds: 3352680543862165947
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5040,6 +7302,8 @@ Objects {
     }
   }
   ParentId: 17565392600652616388
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5079,6 +7343,8 @@ Objects {
     }
   }
   ParentId: 17565392600652616388
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5162,6 +7428,8 @@ Objects {
   ChildIds: 5182220290194111205
   ChildIds: 7760054350590138565
   ChildIds: 291075155711841332
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5192,6 +7460,8 @@ Objects {
   ChildIds: 7069051560891322114
   ChildIds: 2275877406581594408
   ChildIds: 6541623745424797821
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5574,6 +7844,8 @@ Objects {
   ParentId: 2818998430798160164
   ChildIds: 5363269845379017971
   ChildIds: 2819039626489443048
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5602,6 +7874,8 @@ Objects {
     }
   }
   ParentId: 7644004580348132039
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5683,6 +7957,8 @@ Objects {
   ParentId: 2818998430798160164
   ChildIds: 18291491583147682125
   ChildIds: 11166894917076959565
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5798,6 +8074,8 @@ Objects {
   ChildIds: 12524439680210063964
   ChildIds: 3193673189414733941
   ChildIds: 1960656909578136505
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5826,6 +8104,8 @@ Objects {
     }
   }
   ParentId: 8253776181968309484
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5865,6 +8145,8 @@ Objects {
     }
   }
   ParentId: 8253776181968309484
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5908,6 +8190,8 @@ Objects {
   ChildIds: 18144925998820021907
   ChildIds: 14252386344756876555
   ChildIds: 8605341149614856447
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5936,6 +8220,8 @@ Objects {
     }
   }
   ParentId: 12524439680210063964
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5972,6 +8258,8 @@ Objects {
     }
   }
   ParentId: 12524439680210063964
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6008,6 +8296,8 @@ Objects {
     }
   }
   ParentId: 12524439680210063964
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6045,6 +8335,8 @@ Objects {
     }
   }
   ParentId: 12524439680210063964
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6082,6 +8374,8 @@ Objects {
     }
   }
   ParentId: 12524439680210063964
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6119,6 +8413,8 @@ Objects {
     }
   }
   ParentId: 12524439680210063964
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6158,6 +8454,8 @@ Objects {
   ParentId: 12293961432536118492
   ChildIds: 16070049083090319494
   ChildIds: 17940204507252849071
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6185,6 +8483,8 @@ Objects {
     }
   }
   ParentId: 4153012463955323266
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6216,6 +8516,8 @@ Objects {
   ParentId: 4153012463955323266
   ChildIds: 6910465053871762209
   ChildIds: 14727043942156608688
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6248,6 +8550,8 @@ Objects {
   ChildIds: 17875957100122312708
   ChildIds: 12199661903436502762
   ChildIds: 1587724667637108524
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6279,6 +8583,8 @@ Objects {
   ChildIds: 4461462007364560745
   ChildIds: 14801748168922078670
   ChildIds: 17923707206599600509
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6495,6 +8801,8 @@ Objects {
   ChildIds: 17610400018502899693
   ChildIds: 15490480974116487389
   ChildIds: 5059536692872250107
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6522,6 +8830,8 @@ Objects {
     }
   }
   ParentId: 12199661903436502762
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6557,6 +8867,8 @@ Objects {
     }
   }
   ParentId: 12199661903436502762
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6593,6 +8905,8 @@ Objects {
     }
   }
   ParentId: 12199661903436502762
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6630,6 +8944,8 @@ Objects {
     }
   }
   ParentId: 12199661903436502762
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6667,6 +8983,8 @@ Objects {
     }
   }
   ParentId: 12199661903436502762
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6703,6 +9021,8 @@ Objects {
     }
   }
   ParentId: 12199661903436502762
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6745,6 +9065,8 @@ Objects {
   ChildIds: 7612263850895995079
   ChildIds: 2641376474789755462
   ChildIds: 18202649524687639068
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6774,6 +9096,8 @@ Objects {
     }
   }
   ParentId: 17875957100122312708
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6813,6 +9137,8 @@ Objects {
     }
   }
   ParentId: 17875957100122312708
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6896,6 +9222,8 @@ Objects {
   ChildIds: 15074717624294135629
   ChildIds: 442131137651933594
   ChildIds: 17967371943246153221
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6926,6 +9254,8 @@ Objects {
   ChildIds: 159684451486248156
   ChildIds: 11964007638317932452
   ChildIds: 12158262286789536317
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7308,6 +9638,8 @@ Objects {
   ParentId: 14727043942156608688
   ChildIds: 6131334572086132088
   ChildIds: 14370478029686396831
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7336,6 +9668,8 @@ Objects {
     }
   }
   ParentId: 16417739446734608123
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7417,6 +9751,8 @@ Objects {
   ParentId: 14727043942156608688
   ChildIds: 1444609916685169529
   ChildIds: 5280599207055641271
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7532,6 +9868,8 @@ Objects {
   ChildIds: 9881057948917297753
   ChildIds: 6393259598669562479
   ChildIds: 13429430950998846161
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7560,6 +9898,8 @@ Objects {
     }
   }
   ParentId: 6910465053871762209
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7599,6 +9939,8 @@ Objects {
     }
   }
   ParentId: 6910465053871762209
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7642,6 +9984,8 @@ Objects {
   ChildIds: 15212532582265534021
   ChildIds: 6814489988711257994
   ChildIds: 2677061668396775662
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7670,6 +10014,8 @@ Objects {
     }
   }
   ParentId: 9881057948917297753
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7706,6 +10052,8 @@ Objects {
     }
   }
   ParentId: 9881057948917297753
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7742,6 +10090,8 @@ Objects {
     }
   }
   ParentId: 9881057948917297753
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7779,6 +10129,8 @@ Objects {
     }
   }
   ParentId: 9881057948917297753
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7816,6 +10168,8 @@ Objects {
     }
   }
   ParentId: 9881057948917297753
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7853,6 +10207,8 @@ Objects {
     }
   }
   ParentId: 9881057948917297753
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7892,6 +10248,8 @@ Objects {
   ParentId: 12293961432536118492
   ChildIds: 14830472354744417719
   ChildIds: 13873614186768040086
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7919,6 +10277,8 @@ Objects {
     }
   }
   ParentId: 8517170386611375166
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7940,6 +10300,8 @@ Objects {
     }
   }
   ParentId: 8517170386611375166
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7992,6 +10354,8 @@ Objects {
     }
   }
   ParentId: 17993845594966694773
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8022,6 +10386,8 @@ Objects {
     }
   }
   ParentId: 17993845594966694773
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8052,6 +10418,8 @@ Objects {
   ChildIds: 4275735142275720753
   ChildIds: 4872511076161290363
   ChildIds: 3743792097279060228
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8080,6 +10448,8 @@ Objects {
     }
   }
   ParentId: 6671496145084380096
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8165,6 +10535,8 @@ Objects {
     }
   }
   ParentId: 6671496145084380096
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8244,6 +10616,8 @@ Objects {
     }
   }
   ParentId: 6671496145084380096
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8322,6 +10696,8 @@ Objects {
     }
   }
   ParentId: 6671496145084380096
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8404,6 +10780,8 @@ Objects {
   ChildIds: 11300873670590652050
   ChildIds: 5145981757955265776
   ChildIds: 4676694198256337374
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8441,6 +10819,8 @@ Objects {
   ChildIds: 17703315397867312150
   ChildIds: 65561358457579174
   ChildIds: 17271632412967931518
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8469,6 +10849,8 @@ Objects {
   ParentId: 4676694198256337374
   ChildIds: 15311924221895895208
   ChildIds: 18294817043589698263
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8674,6 +11056,8 @@ Objects {
     }
   }
   ParentId: 4676694198256337374
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8749,6 +11133,8 @@ Objects {
   ChildIds: 17214432201801812426
   ChildIds: 9701803382296093997
   ChildIds: 7069442837932518706
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8776,6 +11162,8 @@ Objects {
   ParentId: 5145981757955265776
   ChildIds: 5450127198759884001
   ChildIds: 15085474255702620345
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8982,6 +11370,8 @@ Objects {
     }
   }
   ParentId: 5145981757955265776
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9058,6 +11448,8 @@ Objects {
   ChildIds: 14657311601529939839
   ChildIds: 8896512046150843590
   ChildIds: 1267730879011857341
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9085,6 +11477,8 @@ Objects {
   ParentId: 11300873670590652050
   ChildIds: 7953219911982174368
   ChildIds: 7324763816114582167
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9291,6 +11685,8 @@ Objects {
     }
   }
   ParentId: 11300873670590652050
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9366,6 +11762,8 @@ Objects {
   ChildIds: 6886336672592034480
   ChildIds: 10782452980776454607
   ChildIds: 8168046552195677016
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9393,6 +11791,8 @@ Objects {
   ParentId: 3983264741377747925
   ChildIds: 10830621942559826423
   ChildIds: 13421240429887076424
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9598,6 +11998,8 @@ Objects {
     }
   }
   ParentId: 3983264741377747925
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9678,6 +12080,8 @@ Objects {
   ChildIds: 18401207619751356413
   ChildIds: 5032242946506440181
   ChildIds: 4730688035383532866
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10736,6 +13140,8 @@ Objects {
   ChildIds: 8629463145558430444
   ChildIds: 3722373943493494041
   ChildIds: 2376659373505454220
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -10846,6 +13252,8 @@ Objects {
   }
   ParentId: 2376659373505454220
   ChildIds: 3781338243566489385
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -10871,6 +13279,8 @@ Objects {
     }
   }
   ParentId: 13947615706001097709
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10902,6 +13312,8 @@ Objects {
     }
   }
   ParentId: 2376659373505454220
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11014,6 +13426,8 @@ Objects {
   }
   ParentId: 3722373943493494041
   ChildIds: 12136659113076052302
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11039,6 +13453,8 @@ Objects {
     }
   }
   ParentId: 10118347654421063919
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11070,6 +13486,8 @@ Objects {
     }
   }
   ParentId: 3722373943493494041
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11182,6 +13600,8 @@ Objects {
   }
   ParentId: 8629463145558430444
   ChildIds: 9520222775782427775
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11207,6 +13627,8 @@ Objects {
     }
   }
   ParentId: 8908380054126584613
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11238,6 +13660,8 @@ Objects {
     }
   }
   ParentId: 8629463145558430444
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11350,6 +13774,8 @@ Objects {
   }
   ParentId: 10182455297485400789
   ChildIds: 5987260027013177660
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11375,6 +13801,8 @@ Objects {
     }
   }
   ParentId: 17361393496701584468
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11406,6 +13834,8 @@ Objects {
     }
   }
   ParentId: 10182455297485400789
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11518,6 +13948,8 @@ Objects {
   }
   ParentId: 1286006867421683694
   ChildIds: 4290993274147372572
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11543,6 +13975,8 @@ Objects {
     }
   }
   ParentId: 18368479150604905788
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11574,6 +14008,8 @@ Objects {
     }
   }
   ParentId: 1286006867421683694
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11686,6 +14122,8 @@ Objects {
   }
   ParentId: 9512397733661966057
   ChildIds: 10021388913898879593
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11711,6 +14149,8 @@ Objects {
     }
   }
   ParentId: 4868690822981925534
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11742,6 +14182,8 @@ Objects {
     }
   }
   ParentId: 9512397733661966057
+  UnregisteredParameters {
+  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11777,6 +14219,8 @@ Objects {
   ChildIds: 12173872186478504244
   ChildIds: 5565173653892454613
   ChildIds: 13631596504788948977
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11798,6 +14242,8 @@ Objects {
     }
   }
   ParentId: 7441004493294840497
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12040,6 +14486,8 @@ Objects {
   }
   ParentId: 7441004493294840497
   ChildIds: 11135120654810659761
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12067,6 +14515,8 @@ Objects {
   ParentId: 5565173653892454613
   ChildIds: 3015843121110157805
   ChildIds: 13809591453250677199
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12093,6 +14543,8 @@ Objects {
   ParentId: 11135120654810659761
   ChildIds: 17255875662923845408
   ChildIds: 13227198410283862588
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12130,6 +14582,8 @@ Objects {
     }
   }
   ParentId: 13809591453250677199
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12194,6 +14648,8 @@ Objects {
     }
   }
   ParentId: 13809591453250677199
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12297,6 +14753,8 @@ Objects {
     }
   }
   ParentId: 7441004493294840497
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12431,6 +14889,8 @@ Objects {
   ParentId: 14340765687051952452
   ChildIds: 14384690245462589351
   ChildIds: 6251836645674661843
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12514,6 +14974,8 @@ Objects {
     }
   }
   ParentId: 6251836645674661843
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12568,6 +15030,8 @@ Objects {
   }
   ParentId: 6251836645674661843
   ChildIds: 1445723020155268154
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12613,6 +15077,8 @@ Objects {
     }
   }
   ParentId: 18024288284178057272
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12758,6 +15224,8 @@ Objects {
   }
   ParentId: 7441004493294840497
   ChildIds: 12139316625092254700
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12784,6 +15252,8 @@ Objects {
   }
   ParentId: 8777113894759369142
   ChildIds: 8971772116803295858
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12817,6 +15287,8 @@ Objects {
   ParentId: 12139316625092254700
   ChildIds: 2229550289865890152
   ChildIds: 3864499660629768069
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12919,6 +15391,8 @@ Objects {
   ChildIds: 2008088713596875071
   ChildIds: 13770556296803527264
   ChildIds: 982907386977228200
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12973,6 +15447,8 @@ Objects {
   ParentId: 2229550289865890152
   ChildIds: 7566719764523568697
   ChildIds: 17937414669361520847
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13026,6 +15502,8 @@ Objects {
   }
   ParentId: 982907386977228200
   ChildIds: 2987161964153506123
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13090,6 +15568,8 @@ Objects {
   }
   ParentId: 17937414669361520847
   ChildIds: 4839623602654752297
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13153,6 +15633,8 @@ Objects {
   }
   ParentId: 2987161964153506123
   ChildIds: 12980070050643228666
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13204,6 +15686,8 @@ Objects {
     }
   }
   ParentId: 4839623602654752297
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13268,6 +15752,8 @@ Objects {
     }
   }
   ParentId: 982907386977228200
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13335,6 +15821,8 @@ Objects {
   ParentId: 2229550289865890152
   ChildIds: 7433908303916889064
   ChildIds: 18323319643055137425
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13390,6 +15878,8 @@ Objects {
   ParentId: 13770556296803527264
   ChildIds: 14922739966789149595
   ChildIds: 17230539327410316458
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13453,6 +15943,8 @@ Objects {
   }
   ParentId: 18323319643055137425
   ChildIds: 10834675965022792884
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13514,6 +16006,8 @@ Objects {
     }
   }
   ParentId: 17230539327410316458
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13580,6 +16074,8 @@ Objects {
     }
   }
   ParentId: 18323319643055137425
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13645,6 +16141,8 @@ Objects {
   }
   ParentId: 13770556296803527264
   ChildIds: 5545878146284697313
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13710,6 +16208,8 @@ Objects {
     }
   }
   ParentId: 7433908303916889064
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13776,6 +16276,8 @@ Objects {
   ChildIds: 16565240883174788454
   ChildIds: 4238413603839611374
   ChildIds: 8966170799660250535
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13830,6 +16332,8 @@ Objects {
   }
   ParentId: 2008088713596875071
   ChildIds: 14306599482802621333
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13892,6 +16396,8 @@ Objects {
     }
   }
   ParentId: 8966170799660250535
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -13959,6 +16465,8 @@ Objects {
   }
   ParentId: 2008088713596875071
   ChildIds: 15023903560292919850
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14021,6 +16529,8 @@ Objects {
     }
   }
   ParentId: 4238413603839611374
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14088,6 +16598,8 @@ Objects {
   }
   ParentId: 2008088713596875071
   ChildIds: 7886829214098282820
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14150,6 +16662,8 @@ Objects {
     }
   }
   ParentId: 16565240883174788454
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14217,6 +16731,8 @@ Objects {
   }
   ParentId: 2008088713596875071
   ChildIds: 12340213411349541932
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14279,6 +16795,8 @@ Objects {
     }
   }
   ParentId: 10538617563552037176
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14346,6 +16864,8 @@ Objects {
   }
   ParentId: 2008088713596875071
   ChildIds: 8677186542891108070
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14411,6 +16931,8 @@ Objects {
     }
   }
   ParentId: 1089313598748767695
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14472,6 +16994,8 @@ Objects {
     }
   }
   ParentId: 2229550289865890152
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14557,6 +17081,8 @@ Objects {
   ParentId: 11139851396422371905
   ChildIds: 15744681217174226347
   ChildIds: 7808058945661184636
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14589,6 +17115,8 @@ Objects {
   ParentId: 1885694777285726816
   ChildIds: 2598860372127082092
   ChildIds: 8101892138651827939
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14641,6 +17169,8 @@ Objects {
   ChildIds: 12558749604998311920
   ChildIds: 6632314760066969213
   ChildIds: 15878301775761177918
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14763,6 +17293,8 @@ Objects {
     }
   }
   ParentId: 8101892138651827939
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14826,6 +17358,8 @@ Objects {
     }
   }
   ParentId: 8101892138651827939
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14885,6 +17419,8 @@ Objects {
   }
   ParentId: 7808058945661184636
   ChildIds: 11717323009371393100
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14931,6 +17467,8 @@ Objects {
     }
   }
   ParentId: 2598860372127082092
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15050,6 +17588,8 @@ Objects {
   }
   ParentId: 7441004493294840497
   ChildIds: 12042917069904891443
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15077,6 +17617,8 @@ Objects {
   ParentId: 4669495793034545352
   ChildIds: 13668535779885954013
   ChildIds: 13204302757498474283
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15102,6 +17644,8 @@ Objects {
   }
   ParentId: 12042917069904891443
   ChildIds: 14587474919738331039
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15133,6 +17677,8 @@ Objects {
     }
   }
   ParentId: 13204302757498474283
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15231,6 +17777,8 @@ Objects {
   ChildIds: 17577415863212442571
   ChildIds: 6284631306030046310
   ChildIds: 18352929695334057337
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15292,6 +17840,8 @@ Objects {
   }
   ParentId: 10568894098106648577
   ChildIds: 4823765146368097004
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15316,6 +17866,8 @@ Objects {
     }
   }
   ParentId: 6284631306030046310
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15352,6 +17904,8 @@ Objects {
     }
   }
   ParentId: 10568894098106648577
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15418,6 +17972,8 @@ Objects {
     }
   }
   ParentId: 10568894098106648577
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15448,6 +18004,8 @@ Objects {
     }
   }
   ParentId: 10568894098106648577
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15476,6 +18034,8 @@ Objects {
     }
   }
   ParentId: 10568894098106648577
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15507,6 +18067,8 @@ Objects {
     }
   }
   ParentId: 10568894098106648577
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

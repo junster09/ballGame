@@ -340,6 +340,8 @@ Objects {
     }
   }
   ParentId: 64816977512904705
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -435,6 +437,8 @@ Objects {
     }
   }
   ParentId: 64816977512904705
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -531,6 +535,8 @@ Objects {
     }
   }
   ParentId: 64816977512904705
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

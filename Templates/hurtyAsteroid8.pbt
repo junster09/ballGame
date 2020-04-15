@@ -104,6 +104,8 @@ Assets {
         }
         ParentId: 2323707281538685981
         ChildIds: 17935204504675286870
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -136,6 +138,8 @@ Assets {
         ChildIds: 13285637363794176655
         ChildIds: 6816242963255354136
         ChildIds: 3634380987134097195
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -167,6 +171,8 @@ Assets {
           }
         }
         ParentId: 17935204504675286870
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -207,6 +213,8 @@ Assets {
           }
         }
         ParentId: 17935204504675286870
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -247,6 +255,8 @@ Assets {
           }
         }
         ParentId: 17935204504675286870
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -287,6 +297,8 @@ Assets {
           }
         }
         ParentId: 17935204504675286870
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -325,6 +337,8 @@ Assets {
           }
         }
         ParentId: 17935204504675286870
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -365,6 +379,8 @@ Assets {
           }
         }
         ParentId: 17935204504675286870
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -403,6 +419,8 @@ Assets {
           }
         }
         ParentId: 17935204504675286870
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -440,6 +458,8 @@ Assets {
           }
         }
         ParentId: 2323707281538685981
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
@@ -490,5 +510,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

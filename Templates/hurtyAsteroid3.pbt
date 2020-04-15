@@ -104,6 +104,8 @@ Assets {
         }
         ParentId: 2190100051185084638
         ChildIds: 8938393205696088831
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -146,6 +148,8 @@ Assets {
         ChildIds: 9425616500632976053
         ChildIds: 10400744517396767058
         ChildIds: 14975122329706568041
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -175,6 +179,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -213,6 +219,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -251,6 +259,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -290,6 +300,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -328,6 +340,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -410,6 +424,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -448,6 +464,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -487,6 +505,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -525,6 +545,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -563,6 +585,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -602,6 +626,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -640,6 +666,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -679,6 +707,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -719,6 +749,8 @@ Assets {
           }
         }
         ParentId: 8938393205696088831
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -850,6 +882,8 @@ Assets {
           }
         }
         ParentId: 2190100051185084638
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
@@ -927,5 +961,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

@@ -21,6 +21,8 @@ Assets {
         ChildIds: 6493011871351881025
         ChildIds: 17046412089420414682
         ChildIds: 18416812335582930310
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -50,6 +52,8 @@ Assets {
         ParentId: 9770215993800683743
         ChildIds: 16011307890052932611
         ChildIds: 1370444085299440407
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -163,6 +167,8 @@ Assets {
         ChildIds: 4698876481177171967
         ChildIds: 18348135306136156051
         ChildIds: 11433497559529307928
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -329,6 +335,8 @@ Assets {
         ChildIds: 16284180747529514823
         ChildIds: 4407833069002413882
         ChildIds: 10796371045662129892
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -490,6 +498,8 @@ Assets {
         ParentId: 9770215993800683743
         ChildIds: 749598701442458989
         ChildIds: 13920204308963509200
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -614,6 +624,8 @@ Assets {
         ChildIds: 17451377994447062031
         ChildIds: 17548855473255337308
         ChildIds: 2795404896606122978
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -835,5 +847,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

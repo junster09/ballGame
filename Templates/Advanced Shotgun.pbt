@@ -254,6 +254,8 @@ Assets {
         ChildIds: 9318948300103400612
         ChildIds: 13158565605548214341
         ChildIds: 8129683813634237612
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -375,6 +377,8 @@ Assets {
         ParentId: 17886792431389911077
         ChildIds: 7227053602923584810
         ChildIds: 5222295865409482840
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -405,6 +409,8 @@ Assets {
         ChildIds: 13840066206539143077
         ChildIds: 14001269528702127646
         ChildIds: 1929076861855144217
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -584,6 +590,8 @@ Assets {
         ChildIds: 10564807950251466582
         ChildIds: 11042313066923427455
         ChildIds: 17487609418572443361
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -611,6 +619,8 @@ Assets {
           }
         }
         ParentId: 5222295865409482840
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -648,6 +658,8 @@ Assets {
           }
         }
         ParentId: 5222295865409482840
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -686,6 +698,8 @@ Assets {
           }
         }
         ParentId: 5222295865409482840
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -777,6 +791,8 @@ Assets {
           }
         }
         ParentId: 5222295865409482840
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -813,6 +829,8 @@ Assets {
           }
         }
         ParentId: 5222295865409482840
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -849,6 +867,8 @@ Assets {
           }
         }
         ParentId: 5222295865409482840
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -932,6 +952,8 @@ Assets {
           }
         }
         ParentId: 17886792431389911077
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -955,6 +977,8 @@ Assets {
         Id: 13227233952078412643
         Name: "Shoot"
         ParentId: 17886792431389911077
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -1010,6 +1034,8 @@ Assets {
         Id: 8024053932362620100
         Name: "Reload"
         ParentId: 17886792431389911077
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -1137,5 +1163,5 @@ Assets {
       AssetId: "Advanced_Shotgun"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

@@ -18,6 +18,8 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 10036258488131265623
         ChildIds: 17929697713308847671
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -94,6 +96,8 @@ Assets {
           }
         }
         ParentId: 13058257315024253115
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -147,5 +151,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

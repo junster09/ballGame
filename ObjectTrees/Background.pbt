@@ -16,6 +16,8 @@ Objects {
   }
   ParentId: 3675510160075235889
   ChildIds: 4788809058616111525
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -69,6 +71,8 @@ Objects {
   }
   ParentId: 9293331692815388395
   ChildIds: 5109782288774204406
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -133,6 +137,8 @@ Objects {
     }
   }
   ParentId: 4788809058616111525
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -194,6 +200,8 @@ Objects {
     }
   }
   ParentId: 3675510160075235889
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -256,6 +264,8 @@ Objects {
     }
   }
   ParentId: 3675510160075235889
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

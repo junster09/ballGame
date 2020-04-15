@@ -62,6 +62,8 @@ Assets {
         ParentId: 1675656989204002660
         ChildIds: 6294284950739744910
         ChildIds: 16249654633657571161
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -141,6 +143,8 @@ Assets {
         }
         ParentId: 10949033122195205957
         ChildIds: 18281836076880200646
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -186,6 +190,8 @@ Assets {
         ParentId: 16249654633657571161
         ChildIds: 15119469979375604568
         ChildIds: 5873430187788484635
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -236,6 +242,8 @@ Assets {
           }
         }
         ParentId: 18281836076880200646
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -294,6 +302,8 @@ Assets {
           }
         }
         ParentId: 18281836076880200646
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -335,5 +345,5 @@ Assets {
       AssetId: "Health_Bar"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

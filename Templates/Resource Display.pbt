@@ -182,6 +182,8 @@ Assets {
         }
         ParentId: 1041871094853896994
         ChildIds: 1746532705875791238
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -228,6 +230,8 @@ Assets {
         ChildIds: 18038148122183794653
         ChildIds: 13241091557700086557
         ChildIds: 13513497818209532703
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -276,6 +280,8 @@ Assets {
         }
         ParentId: 1746532705875791238
         ChildIds: 14059023812613610750
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -327,6 +333,8 @@ Assets {
           }
         }
         ParentId: 18038148122183794653
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -381,6 +389,8 @@ Assets {
           }
         }
         ParentId: 1746532705875791238
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -432,6 +442,8 @@ Assets {
           }
         }
         ParentId: 1746532705875791238
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -497,5 +509,5 @@ Assets {
       AssetId: "Resource_Display"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

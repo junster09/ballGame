@@ -18,6 +18,8 @@ Assets {
         ParentId: 10562065330696862854
         ChildIds: 13591331349196528036
         ChildIds: 16145483188601114806
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -43,6 +45,8 @@ Assets {
           }
         }
         ParentId: 13648825478633622894
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -101,5 +105,5 @@ Assets {
       AssetId: "Kill_Zone"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

@@ -23,6 +23,8 @@ Assets {
         ChildIds: 10304339436600307953
         ChildIds: 13396529350351490170
         ChildIds: 522126028189142674
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -588,6 +590,6 @@ Assets {
       AssetId: "Sky_SciFi_02"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
   DirectlyPublished: true
 }

@@ -19,6 +19,8 @@ Assets {
             Z: 1
           }
         }
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -45,5 +47,5 @@ Assets {
     OwnerName: "Gabunir"
     Version: "1.0.0"
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

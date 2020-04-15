@@ -1,10 +1,28 @@
 Assets {
+  Id: 18295221919314072366
+  Name: "Rocket Trail VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_rocket_trail"
+  }
+}
+Assets {
   Id: 18033496229113730471
   Name: "BG Highlighted 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
+  Id: 17480159545540459219
+  Name: "Tech Panel 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_003_uv"
   }
 }
 Assets {
@@ -35,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16359834230979559235
+  Name: "Wedge - Convex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_001"
+  }
+}
+Assets {
   Id: 16315162904582089110
   Name: "Ambience Alien Designed 02 SFX"
   PlatformAssetType: 7
@@ -53,12 +80,39 @@ Assets {
   }
 }
 Assets {
+  Id: 15999466893344697305
+  Name: "Computer Monitor 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_computer-monitor_001"
+  }
+}
+Assets {
+  Id: 15755153163134021298
+  Name: "Lense - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_lense_001"
+  }
+}
+Assets {
   Id: 15363179538433175477
   Name: "Dust Motes Volume VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_dust_motes"
+  }
+}
+Assets {
+  Id: 15239571002661349145
+  Name: "Scifi Panel 1x3m Angled Right"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_panel_1x3m_angledR_001"
   }
 }
 Assets {
@@ -98,12 +152,48 @@ Assets {
   }
 }
 Assets {
+  Id: 14099504197164969023
+  Name: "Modern Weapon - Scope 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_scope_002"
+  }
+}
+Assets {
   Id: 12923701138268279279
   Name: "Frame Beveled 006"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameBeveled_006"
+  }
+}
+Assets {
+  Id: 12648865134488273468
+  Name: "SciFi Trim 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scifi_trim_001_4m"
+  }
+}
+Assets {
+  Id: 12382104768089443116
+  Name: "Prism - 8-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_octagon_001"
+  }
+}
+Assets {
+  Id: 12317010142665720742
+  Name: "Tech Panel 05"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_005"
   }
 }
 Assets {
@@ -140,6 +230,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weapons_grenade_teeth_001"
+  }
+}
+Assets {
+  Id: 11304217903514823315
+  Name: "Cone - Truncated Hollow Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_003"
   }
 }
 Assets {
@@ -197,6 +296,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8173153865547468637
+  Name: "Scifi Panel 1x4m Corner-cut"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_panel_1x4m_002"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -212,6 +320,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundHighlighted_019"
+  }
+}
+Assets {
+  Id: 7221186764710479253
+  Name: "Trash Can - Urban 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trash_public_001"
   }
 }
 Assets {
@@ -239,6 +356,60 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundFlat_006"
+  }
+}
+Assets {
+  Id: 6668433336893985493
+  Name: "Scifi Panel 1x3m Angled Left"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_panel_1x3m_angledL_001"
+  }
+}
+Assets {
+  Id: 6283807781678272407
+  Name: "Arch"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_001"
+  }
+}
+Assets {
+  Id: 5151873584740583629
+  Name: "Scifi Panel 2x3m Triangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_panel_2x3m_triangle_001"
+  }
+}
+Assets {
+  Id: 5129490105765850203
+  Name: "Tech Panel 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_002_uv"
+  }
+}
+Assets {
+  Id: 4734780502947683559
+  Name: "Ball"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_001"
+  }
+}
+Assets {
+  Id: 4620615145667919762
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {
@@ -278,6 +449,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1966052166454953742
+  Name: "Ring - Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_005"
+  }
+}
+Assets {
   Id: 1781125356669888653
   Name: "Modern Weapon - Grenade Handle 01"
   PlatformAssetType: 1
@@ -293,6 +473,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Crosshair_001"
+  }
+}
+Assets {
+  Id: 851049305300989203
+  Name: "Metal Steel Hexagon 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_steel_hex_001"
   }
 }
 Assets {

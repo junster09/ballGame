@@ -19,6 +19,8 @@ Assets {
             Z: 1
           }
         }
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -44,5 +46,5 @@ Assets {
     OwnerAccountId: "eea739085f20445392c0ab999ab87bb6"
     OwnerName: "AjArtuz"
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

@@ -17,6 +17,8 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 13363444211078239460
+        UnregisteredParameters {
+        }
         Lifespan: 10
         WantsNetworking: true
         Collidable_v2 {
@@ -46,6 +48,8 @@ Assets {
         ParentId: 6065300252641844902
         ChildIds: 8329684481779929416
         ChildIds: 15801095768249916903
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -71,6 +75,8 @@ Assets {
           }
         }
         ParentId: 13363444211078239460
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -224,5 +230,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }

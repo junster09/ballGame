@@ -70,6 +70,8 @@ Assets {
         ParentId: 3772104818986187317
         ChildIds: 11481558594160766729
         ChildIds: 9362652718803093852
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -148,6 +150,8 @@ Assets {
         }
         ParentId: 782438861213269937
         ChildIds: 9750537744248185750
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -191,6 +195,8 @@ Assets {
           }
         }
         ParentId: 9362652718803093852
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -229,5 +235,5 @@ Assets {
       AssetId: "Scoreboard"
     }
   }
-  SerializationVersion: 55
+  SerializationVersion: 56
 }
